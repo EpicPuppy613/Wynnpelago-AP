@@ -44,12 +44,16 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                 else:
                     region_rule = region_rule & CanReachRegion(region)
 
-        levels_needed = ceil(int(row[loader.LEVEL]) / 5) - 1
+        levels_needed = max_levels_needed(int(row[loader.LEVEL]), world)
         world.set_rule(world.get_location(row[loader.NAME]), Has("Progressive Max Level", count=levels_needed) & region_rule)
 
     # Victory condition
-    world.set_rule(world.get_location("Level Up: 20"), Has("Progressive Max Level", count=3))
+    world.set_rule(world.get_location("Level Up: " + str(world.options.goal_level)),
+                   Has("Progressive Max Level", count=max_levels_needed(world.options.goal_level.value, world)))
 
 
 def set_completion_condition(world: WynncraftWorld) -> None:
     world.set_completion_rule(Has("Victory"))
+
+def max_levels_needed(level: int, world: WynncraftWorld):
+    return ceil((level - 1) / world.options.level_increment)

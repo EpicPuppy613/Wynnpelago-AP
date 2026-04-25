@@ -31,7 +31,7 @@ def create_all_locations(world: WynncraftWorld) -> None:
 
 def create_regular_locations(world: WynncraftWorld) -> None:
     for row in loader.rows:
-        if row[loader.AP] != 'Location' or row[loader.ID] == '':
+        if row[loader.AP] != 'Location' or row[loader.ID] == '' or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) >= world.options.goal_level:
             continue
 
         if row[loader.REGION] != '':
@@ -45,5 +45,5 @@ def create_regular_locations(world: WynncraftWorld) -> None:
 
 def create_events(world: WynncraftWorld) -> None:
     world.get_region("Menu").add_event(
-        "Level Up: 20", "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem
+        "Level Up: " + str(world.options.goal_level), "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem
     )

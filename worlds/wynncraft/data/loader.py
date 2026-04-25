@@ -8,6 +8,7 @@ rows = []
 
 # csv column consts
 NAME = "Content"
+READY = "Ready"
 LEVEL = "Level"
 TYPE = "Type"
 AP = "AP"
@@ -16,8 +17,15 @@ REGION = "Region/Connections"
 CONNECTIONS = REGION
 
 # run some preprocessing for future use
+all_regions = []
+region_connections = {}
 unlockable_regions = []
 for row in reader:
+    if row[TYPE] == "Territory":
+        all_regions.append(row[NAME])
+        region_connections[row[NAME]] = row[CONNECTIONS]
+    if row[READY] != "TRUE":
+        continue
     rows.append(row)
     if row[TYPE] == "Territory" and row["AP"] == "Item":
         unlockable_regions.append(row[NAME])

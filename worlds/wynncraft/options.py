@@ -48,7 +48,7 @@ class TrapChance(Range):
 
     range_start = 0
     range_end = 100
-    default = 0
+    default = 50
 
 class FreezeTrapWeight(Range):
     """
@@ -190,7 +190,22 @@ class LevelChecks(Toggle):
 
 @dataclass
 class WynncraftOptions(PerGameCommonOptions):
+    goal_level: GoalLevel
+    locked_region_enforcement: LockedRegionEnforcement
+    locked_region_countdown: LockedRegionCountdown
+    level_increment: LevelIncrement
+    extra_max_levels: ExtraMaxLevels
+    quest_checks: QuestChecks
+    mini_quest_checks: MiniQuestChecks
+    cave_checks: CaveChecks
+    dungeon_checks: DungeonChecks
+    level_checks: LevelChecks
     trap_chance: TrapChance
+    freeze_trap_weight: FreezeTrapWeight
+    silence_trap_weight: SilenceTrapWeight
+    blind_trap_weight: BlindTrapWeight
+    trap_duration: TrapDuration
+    kill_trap_weight: KillTrapWeight
 
 
 option_groups = [

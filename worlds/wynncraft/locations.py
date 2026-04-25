@@ -14,7 +14,7 @@ location_name_to_id = {}
 location_name_to_classification = {}
 
 for row in loader.rows:
-    if row[loader.AP] != 'Location' or row[loader.ID] == '':
+    if row[loader.AP] != "Location" or row[loader.ID] == "":
         continue
     location_id = int(row[loader.ID].replace(" ", ""), 16)
     name = row[loader.NAME]
@@ -31,10 +31,13 @@ def create_all_locations(world: WynncraftWorld) -> None:
 
 def create_regular_locations(world: WynncraftWorld) -> None:
     for row in loader.rows:
-        if row[loader.AP] != 'Location' or row[loader.ID] == '' or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) >= world.options.goal_level:
+        if row[loader.AP] != "Location" or row[loader.ID] == "" or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) >= world.options.goal_level:
             continue
 
-        if row[loader.REGION] != '':
+        if not world.location_enabled(row[loader.TYPE]):
+            continue
+
+        if row[loader.REGION] != "":
             region = world.get_region(row[loader.REGION].split(", ")[0])
         else:
             region = world.get_region("Menu")

@@ -73,6 +73,18 @@ def create_item_with_correct_classification(world: WynncraftWorld, name: str) ->
     classification = default_item_classifications[name]
     return WynncraftItem(name, classification, item_name_to_id[name], world.player)
 
+def get_trap_weight(world: WynncraftWorld, trap: str):
+    match trap:
+        case "Freeze Trap":
+            return world.options.freeze_trap_weight
+        case "Silence Trap":
+            return world.options.silence_trap_weight
+        case "Blind Trap":
+            return world.options.blind_trap_weight
+        case "Kill Trap":
+            return world.options.kill_trap_weight
+    return 0
+
 
 def create_all_items(world: WynncraftWorld) -> None:
     itempool: list[Item] = []
@@ -87,17 +99,32 @@ def create_all_items(world: WynncraftWorld) -> None:
             world.push_precollected(ap_item)
 
     level_items = ceil((world.options.goal_level - 1) / world.options.level_increment)
-    for i in range(level_items):
-        itempool.append(world.create_item("Progressive Max Level"))
+    itempool += [world.create_item("Progressive Max Level") for _ in range(level_items)]
 
     number_of_items = len(itempool)
     number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))
     needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
 
     extra_level_items = min(world.options.extra_max_levels, needed_number_of_filler_items)
-    for i in range(extra_level_items):
-        itempool.append(world.create_item("Progressive Max Level"))
+    itempool += [world.create_item("Progressive Max Level") for _ in range(extra_level_items)]
     needed_number_of_filler_items -= extra_level_items
+
+    trap_items = round(needed_number_of_filler_items * world.options.trap_chance / 100)
+
+    total_trap_weight = 0
+    for trap in trap_names:
+        total_trap_weight += get_trap_weight(world, trap)
+
+    if total_trap_weight != 0:
+        for i in range(trap_items):
+            roll = world.random.randint(0, total_trap_weight - 1)
+            for trap in trap_names:
+                weight = get_trap_weight(world, trap)
+                if roll < weight:
+                    itempool.append(world.create_item(trap))
+                    break
+                roll -= get_trap_weight(world, trap)
+        needed_number_of_filler_items -= trap_items
 
     itempool += [world.create_filler() for _ in range(needed_number_of_filler_items)]
     world.multiworld.itempool += itempool

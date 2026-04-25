@@ -40,7 +40,24 @@ class WynncraftWorld(World):
         return items.get_random_filler_item_name(self)
 
     def fill_slot_data(self) -> Mapping[str, Any]:
-        return {}
-        # return self.options.as_dict(
-        #     "hard_mode", "hammer", "extra_starting_chest", "confetti_explosiveness", "player_sprite"
-        # )
+        return self.options.as_dict(
+            "goal_level", "level_increment", "trap_duration", "locked_region_enforcement", "locked_region_countdown"
+        )
+
+    def location_enabled(self, type):
+        if type == "Quest" and not self.options.quest_checks:
+            return False
+
+        if type == "Mini-Quest" and not self.options.mini_quest_checks:
+            return False
+
+        if type == "Dungeon" and not self.options.dungeon_checks:
+            return False
+
+        if type == "Cave" and not self.options.cave_checks:
+            return False
+
+        if type == "Level" and not self.options.level_checks:
+            return False
+
+        return True

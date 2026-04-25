@@ -33,6 +33,9 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
         if row[loader.AP] != "Location":
             continue
 
+        if not world.location_enabled(row[loader.TYPE]):
+            continue
+
         regions = row[loader.REGION].split(", ")
 
         region_rule = True_()

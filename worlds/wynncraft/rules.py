@@ -30,7 +30,7 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
 
 def set_all_location_rules(world: WynncraftWorld) -> None:
     for row in loader.rows:
-        if row[loader.AP] != "Location":
+        if row[loader.AP] != "Location" or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) >= world.options.goal_level:
             continue
 
         if not world.location_enabled(row[loader.TYPE]):

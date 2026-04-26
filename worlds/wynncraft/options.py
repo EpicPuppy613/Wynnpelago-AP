@@ -24,7 +24,7 @@ class ExtraMaxLevels(Range):
     display_name = "Extra Max Levels"
 
     range_start = 0
-    range_end = 40
+    range_end = 50
     default = 5
 
 class LevelIncrement(Range):
@@ -44,7 +44,7 @@ class TrapChance(Range):
     Percent of 'Nothing' filler items to replace with traps.
     """
 
-    display_name = "Trap Chance"
+    display_name = "Trap Percent"
 
     range_start = 0
     range_end = 100
@@ -60,19 +60,19 @@ class FreezeTrapWeight(Range):
 
     range_start = 0
     range_end = 100
-    default = 2
+    default = 3
 
-class SilenceTrapWeight(Range):
+class DazeTrapWeight(Range):
     """
-    Relative weight of silence traps.
-    Silence trap: Disables player attacks/spells.
+    Relative weight of daze traps.
+    Daze trap: Disables player attacks/spells.
     """
 
-    display_name = "Silence Trap Weight"
+    display_name = "Daze Trap Weight"
 
     range_start = 0
     range_end = 100
-    default = 2
+    default = 3
 
 class BlindTrapWeight(Range):
     """
@@ -84,7 +84,7 @@ class BlindTrapWeight(Range):
 
     range_start = 0
     range_end = 100
-    default = 2
+    default = 3
 
 class KillTrapWeight(Range):
     """
@@ -100,13 +100,13 @@ class KillTrapWeight(Range):
 
 class TrapDuration(Range):
     """
-    Number of seconds for freeze, silence, and blind traps to take effect.
+    Number of seconds for freeze, daze, and blind traps to take effect.
     """
 
     display_name = "Trap Duration"
 
     range_start = 1
-    range_end = 60
+    range_end = 120
     default = 10
 
 class LockedRegionEnforcement(Choice):
@@ -202,7 +202,7 @@ class WynncraftOptions(PerGameCommonOptions):
     level_checks: LevelChecks
     trap_chance: TrapChance
     freeze_trap_weight: FreezeTrapWeight
-    silence_trap_weight: SilenceTrapWeight
+    daze_trap_weight: DazeTrapWeight
     blind_trap_weight: BlindTrapWeight
     kill_trap_weight: KillTrapWeight
     trap_duration: TrapDuration
@@ -223,7 +223,7 @@ option_groups = [
     ),
     OptionGroup(
         "Trap Options",
-        [TrapChance, FreezeTrapWeight, SilenceTrapWeight, BlindTrapWeight, KillTrapWeight, TrapDuration]
+        [TrapChance, FreezeTrapWeight, DazeTrapWeight, BlindTrapWeight, KillTrapWeight, TrapDuration]
     )
 ]
 

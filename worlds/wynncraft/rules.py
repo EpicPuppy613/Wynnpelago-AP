@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING
 
 from math import ceil
 
-from rule_builder.rules import Has, True_, CanReachRegion, Rule
+from rule_builder.rules import Has, True_, CanReachRegion, Rule, CanReachLocation
 
 from .data import loader
 
@@ -38,17 +38,22 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
 
         regions = row[loader.REGION].split(", ")
 
-        region_rule = True_()
+        rule = True_()
         if len(regions) > 1:
             del regions[0]
             for region in regions:
                 if region.startswith("*"):
-                    region_rule = region_rule & Has(f"Region: {region[1:]}")
+                    rule = rule & Has(f"Region: {region[1:]}")
                 else:
-                    region_rule = region_rule & CanReachRegion(region)
+                    rule = rule & CanReachRegion(region)
+
+        if row[loader.PREREQUISITES] != "":
+            prereqs = row[loader.PREREQUISITES].split(", ")
+            for prereq in prereqs:
+                rule = rule & CanReachLocation(prereq)
 
         levels_needed = max_levels_needed(int(row[loader.LEVEL]), world)
-        world.set_rule(world.get_location(row[loader.NAME]), Has("Progressive Max Level", count=levels_needed) & region_rule)
+        world.set_rule(world.get_location(row[loader.NAME]), Has("Progressive Max Level", count=levels_needed) & rule)
 
     # Victory condition
     world.set_rule(world.get_location("Level Up: " + str(world.options.goal_level)),

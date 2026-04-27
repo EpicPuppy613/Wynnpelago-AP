@@ -15,6 +15,7 @@ AP = "AP"
 ID = "ID (Hex)"
 REGION = "Region/Connections"
 CONNECTIONS = REGION
+PREREQUISITES = "Prerequisites"
 
 # run some preprocessing for future use
 all_regions = []

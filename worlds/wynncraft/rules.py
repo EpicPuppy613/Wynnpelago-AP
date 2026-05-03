@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING
 
 from math import ceil
 
-from rule_builder.rules import Has, True_, CanReachRegion, Rule, CanReachLocation
+from rule_builder.rules import Has, True_, False_, CanReachRegion, CanReachLocation
 
 from .data import loader
 
@@ -19,11 +19,11 @@ def set_all_rules(world: WynncraftWorld) -> None:
 
 
 def set_all_entrance_rules(world: WynncraftWorld) -> None:
-    for row in loader.rows:
-        if row[loader.TYPE] != "Territory" or row[loader.CONNECTIONS] == "":
+    for name in loader.all_regions:
+        if loader.region_connections[name] == "":
             continue
-        for connection in row[loader.CONNECTIONS].split(", "):
-            entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
+        for connection in loader.region_connections[name].split(", "):
+            entrance = world.get_entrance(f"{name} to {connection}")
             if connection in loader.unlockable_regions:
                 world.set_rule(entrance, Has(f"Region: {connection}"))
 
@@ -38,19 +38,27 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
 
         regions = row[loader.REGION].split(", ")
 
-        rule = True_()
-        if len(regions) > 1:
-            del regions[0]
-            for region in regions:
-                if region.startswith("*"):
-                    rule = rule & Has(f"Region: {region[1:]}")
-                else:
-                    rule = rule & CanReachRegion(region)
+        if row[loader.TYPE] == "Level":
+            if row[loader.REGION] != "":
+                rule = False_()
+                for region in regions:
+                    rule = rule | CanReachRegion(region)
+            else:
+                rule = True_()
+        else:
+            rule = True_()
+            if len(regions) > 1:
+                del regions[0]
+                for region in regions:
+                    if region.startswith("*"):
+                        rule = rule & Has(f"Region: {region[1:]}")
+                    else:
+                        rule = rule & CanReachRegion(region)
 
-        if row[loader.PREREQUISITES] != "":
-            prereqs = row[loader.PREREQUISITES].split(", ")
-            for prereq in prereqs:
-                rule = rule & CanReachLocation(prereq)
+            if row[loader.PREREQUISITES] != "":
+                prereqs = row[loader.PREREQUISITES].split(", ")
+                for prereq in prereqs:
+                    rule = rule & CanReachLocation(prereq)
 
         levels_needed = max_levels_needed(int(row[loader.LEVEL]), world)
         world.set_rule(world.get_location(row[loader.NAME]), Has("Progressive Max Level", count=levels_needed) & rule)

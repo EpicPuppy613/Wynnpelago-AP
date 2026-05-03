@@ -37,7 +37,7 @@ def create_regular_locations(world: WynncraftWorld) -> None:
         if not world.location_enabled(row[loader.TYPE]):
             continue
 
-        if row[loader.REGION] != "":
+        if row[loader.REGION] != "" and row[loader.TYPE] != "Level":
             region = world.get_region(row[loader.REGION].split(", ")[0])
         else:
             region = world.get_region("Menu")

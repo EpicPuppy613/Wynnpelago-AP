@@ -1,226 +1,95 @@
 Content,Ready,Level,Type,AP,ID (Hex),Region/Connections,Prerequisites,Dep. Lvl.,Dependents
-Ragni,TRUE,1,Territory,Default,,"Ragni North Entrance, Ragni Main Entrance, Ragni South Entrance",,1,"King's Recruit, Poisoning the Pest"
-Alekin,TRUE,4,Territory,Default,,"Nivla Woods, Arachnid Woods, Nivla Woods Exit, Blooming Boulders",,4,"Infested Plants, Mushroom Man, Supply and Delivery"
-Maltic,TRUE,4,Territory,Default,,"Ragni Countryside North, Coastal Trail, Maltic Coast, Ancient Waterworks, Farmers Settlement",,10,Maltic's Well
-Detlas,TRUE,6,Territory,Default,,"Detlas Suburbs, Scorched Trail, Essren's Hut",,6,"Level Up: 10, Level Up: 11, Level Up: 12, Level Up: 13, Level Up: 14, Level Up: 15, Level Up: 16, Level Up: 17, Level Up: 18, Level Up: 19, Mushroom Man, Taking the Tower, Elemental Exercise, Potion Making, Arachnids' Ascent, Supply and Delivery, Grave Digger, The Mercenary, Jungle Fever"
-Ternaves,TRUE,13,Territory,Default,,"Black Road, Ternaves Tunnel, Abandoned Mines Entrance",,13,"Stable Story, Meaningful Holiday"
-Nemract,TRUE,18,Territory,Default,,"Rocky Shore, Rooster Island, Nemract Cathedral, Mount Wynn Inn",,18,"Sunken Ship, Level Up: 20, Level Up: 21, Level Up: 22, Level Up: 23, Level Up: 24, Level Up: 25, Level Up: 26, Level Up: 27, Level Up: 28, Level Up: 29, Pit of the Dead, Grave Digger, Dwelling Walls, Lost Tower, Tempo Town Trouble, Misadventure on the Sea"
-Tempo Town,TRUE,22,Territory,Default,,"Time Valley, Blooming Boulders, Road to Elkurn, Elkurn",,22,"Corrupt Time Warp, Vortex Complex, Time Valley Aquifer, Tempo Town Trouble, Creeper Infiltration"
-Elkurn,TRUE,22,Territory,Default,,"Tempo Town, Road to Elkurn, Corrupted Road, Corrupted River, Nesaak Transition, Frosty Spikes",,22,"Vortex Complex, Recover the Past"
-Nesaak,TRUE,22,Territory,Default,,"Frigid Crossroads, Frozen Homestead, Florist's Hut, Bob's Tomb, Wolves' Den",,40,"Level Up: 40, Level Up: 41, Level Up: 42, Level Up: 43, Level Up: 44, Level Up: 45, Level Up: 46, Level Up: 47, Level Up: 48, Level Up: 49, Level Up: 50, Level Up: 51, Level Up: 52, Level Up: 53, Level Up: 54, Underice, Fate of the Fallen"
-Selchar,TRUE,28,Territory,Default,,"Skien's Island, Durum Barley Islet, Durum Isles Barn, Durum Malt Islet, Rooster Island",,28,"Wave Cult Temple, Misadventure on the Sea"
-Almuj,TRUE,30,Territory,Default,,"Entrance to Almuj, Dusty Pit, Gloopy Cave, Ruined Villa, Almuj Slums",,30,"Crystal Caverns, Quicksand Carvers' Den, Level Up: 30, Level Up: 31, Level Up: 32, Level Up: 33, Level Up: 34, Level Up: 35, Level Up: 36, Level Up: 37, Level Up: 38, Level Up: 39, Slay Scarabs, The Mercenary, Green Gloop, A Sandy Scandal, Meaningful Holiday, Wrath of the Mummy, Jungle Fever"
-Bremminglar,TRUE,30,Territory,Default,,"Savannah Plains, Lion Lair",,#N/A,#N/A
-Rymek,TRUE,34,Territory,Default,,"Ruined Prospect, Sunrise Plateau",,34,"Canyon Condor, Wrath of the Mummy"
-Pirate Town,TRUE,39,Territory,Default,,"Bloody Beach, Volcanic Isles, Lost Atoll, Zhight Island",,60,Beneath the Depths
-Llevigar,TRUE,39,Territory,Default,,"Entrance to Gavel, Karoc Quarry, Llevigar Gate",,39,"Level Up: 40, Level Up: 41, Level Up: 42, Level Up: 43, Level Up: 44, Level Up: 45, Level Up: 46, Level Up: 47, Level Up: 48, Level Up: 49, Pirate's Trove, Heart of Llevigar"
-Nodguj Nation,TRUE,40,Territory,Default,,"Skien's Island, Dujgon Nation, Icy Island, Santa's Hideout, Mage Island, Durum Barley Islet",,40,Ice Nations
-Dujgon Nation,TRUE,40,Territory,Default,,"Nodguj Nation, Dreary Docks, Disturbed Crypt, Regular Island, Icy Island",,40,Ice Nations
-Lusuco,TRUE,44,Territory,Default,,Icy Descent,,44,"Raiders' Hideout, Submerged Coal Mine"
-Entrance to Bucie,TRUE,45,Territory,Default,,"Llevigar Farm, Goblin Plains East, Centerworld Fortress, Bucie Waterfall",,#N/A,#N/A
-Troms,TRUE,50,Territory,Default,,"Temple of Legends, Troms Lake",,52,"Level Up: 55, Level Up: 56, Level Up: 57, Level Up: 58, Level Up: 59, Corrupted Betrayal, The Passage"
-Olux,TRUE,50,Territory,Default,,"Path to the Grootslangs, Entrance to Olux, Lizardman Lake, Olux Lumberyard",,50,"Maddening Mud, Level Up: 50, Level Up: 51, Level Up: 52, Level Up: 53, Level Up: 54, Level Up: 55, Level Up: 56, Level Up: 57, Level Up: 58, Level Up: 59, The Maiden Tower, Crop Failure, The Shadow of the Beast, An Iron Heart Part II"
-Cinfras,FALSE,,Territory,Default,,,,#N/A,#N/A
-Gelibord,FALSE,,Territory,Default,,,,66,"Elemental Hollow, Lazarus Pit, Forbidden Prison"
-Lexdale,FALSE,,Territory,Default,,,,72,Lexdale Witch Trials
-Thanos,FALSE,,Territory,Default,,,,81,From the Bottom
-Thesead,FALSE,,Territory,Default,,,,#N/A,#N/A
-Eltom,FALSE,,Territory,Default,,,,#N/A,#N/A
-Ahmsord,FALSE,,Territory,Default,,,,96,"Slay Creatures of the Void, Slay Conures"
-Corkus City,FALSE,,Territory,Default,,,,#N/A,#N/A
-Legendary Island,FALSE,,Territory,Default,,,,#N/A,#N/A
-Rodoroc,FALSE,,Territory,Default,,,,#N/A,#N/A
-Lutho,FALSE,,Territory,Default,,,,102,Point of No Return
-Iboju Village,TRUE,50,Territory,Default,,"Fountain of Youth, Apprentice Huts",,52,"Carnadile Den, Jade Well, Jungle Fetish Camp, Corrupted Betrayal, Jungle Fever, The Passage"
-Efilim,FALSE,,Territory,Default,,,,#N/A,#N/A
-Relos,FALSE,,Territory,Default,,,,#N/A,#N/A
-Espren,FALSE,,Territory,Default,,,,108,"The Scarred Springs, The Missing Piece"
-Timasca,FALSE,,Territory,Default,,,,110,"The Flush, Freight Interchange, Through the Pipes"
-Aldwell,FALSE,,Territory,Default,,,,112,"Entozoon Takeover, Hunt Banshee Stags"
-Hyloch,FALSE,,Territory,Default,,,,116,"Saltpetre Mine, Overture to Despair, The Strong Survive, Ensemble of Hope, Apotheosis"
-Contested District,FALSE,,Territory,Default,,,,115,"Citadel Catacombs, Aelumia Weaveworks, Aelumia Metalmill, Aelumia Chemical Plant, Ensemble of Hope, Apotheosis"
-Kandon-Beda,FALSE,,Territory,Default,,,,#N/A,#N/A
-Dogun Ritual Site,FALSE,,Territory,Default,,,,93,Slay Azers
-Nothing,TRUE,,Special,Filler,00 20 00 01,,,,
-Gear: 1-5 Unique,FALSE,1,Special,Item,00 02 01 01,,,,
-Gear: 1-5 Epic,FALSE,1,Special,Item,00 02 02 01,,,,
-Gear: 1-5 Legendary+,FALSE,1,Special,Item,00 02 03 01,,,,
-Armor: 1-5 Unique,FALSE,1,Special,Item,00 02 11 01,,,,
-Armor: 1-5 Epic,FALSE,1,Special,Item,00 02 12 01,,,,
-Armor: 1-5 Legendary+,FALSE,1,Special,Item,00 02 13 01,,,,
-Weapons: 1-5 Unique,FALSE,1,Special,Item,00 02 21 01,,,,
-Weapons: 1-5 Epic,FALSE,1,Special,Item,00 02 22 01,,,,
-Weapons: 1-5 Legendary+,FALSE,1,Special,Item,00 02 23 01,,,,
-Accessories: 1-5 Unique,FALSE,1,Special,Item,00 02 31 01,,,,
-Accessories: 1-5 Epic,FALSE,1,Special,Item,00 02 32 01,,,,
-Accessories: 1-5 Legendary+,FALSE,1,Special,Item,00 02 33 01,,,,
 Progressive Max Level,TRUE,,Special,Item,00 00 00 01,,,,
-Progressive Unique Gear,FALSE,,Special,Item,00 02 01 00,,,,
-Progressive Epic Gear,FALSE,,Special,Item,00 02 02 00,,,,
-Progressive Legendary+ Gear,FALSE,,Special,Item,00 02 03 00,,,,
-Progressive Unique Armor,FALSE,,Special,Item,00 02 11 00,,,,
-Progressive Epic Armor,FALSE,,Special,Item,00 02 12 00,,,,
-Progressive Legendary+ Armor,FALSE,,Special,Item,00 02 13 00,,,,
-Progressive Unique Weapons,FALSE,,Special,Item,00 02 21 00,,,,
-Progressive Epic Weapons,FALSE,,Special,Item,00 02 22 00,,,,
-Progressive Legendary+ Weapons,FALSE,,Special,Item,00 02 23 00,,,,
-Progressive Unique Accessories,FALSE,,Special,Item,00 02 31 00,,,,
-Progressive Epic Accessories,FALSE,,Special,Item,00 02 32 00,,,,
-Progressive Legendary+ Accessories,FALSE,,Special,Item,00 02 33 00,,,,
-Emerald Trail,TRUE,1,Territory,Item,00 01 00 0c,"Ragni Main Entrance, Farmers Settlement, Entrance to Nivla Woods",,1,"Pigman Barbeque, Corrupted Passageway, Enzan's Brother"
 Ragni Main Entrance,TRUE,1,Territory,Item,00 01 00 00,"Ragni, Ragni Countryside South, Emerald Trail",,2,Poisoning the Pest
+Ragni North Entrance,TRUE,3,Territory,Item,00 01 00 01,"Katoa Ranch, Riverbank Knoll, Ragni",,3,Cook Assistant
+Katoa Ranch,TRUE,3,Territory,Item,00 01 00 02,"Ragni North Entrance, Riverbank Knoll",,3,"Cook Assistant, The Sewers of Ragni, Tunnel Trouble, Crab Fighters, Decrepit Sewers"
+Riverbank Knoll,TRUE,3,Territory,Item,00 01 00 03,"Ragni North Entrance, Katoa Ranch, Ragni Countryside North",,#N/A,#N/A
 Ragni Countryside South,TRUE,2,Territory,Item,00 01 00 04,"Ragni Main Entrance, Ragni Countryside North, Farmers Settlement",,6,Derelict Mine
 Ragni Countryside North,TRUE,2,Territory,Item,00 01 00 05,"Riverbank Knoll, Coastal Trail, Maltic, Ragni Countryside South",,2,"Ancestor Grotto, Derelict Mine"
-Coastal Trail,TRUE,2,Territory,Item,00 01 00 1a,"Ragni Countryside North, Maltic Coast, Maltic",,2,Ancestor Grotto
-Ragni North Entrance,TRUE,3,Territory,Item,00 01 00 01,"Katoa Ranch, Riverbank Knoll, Ragni",,3,Cook Assistant
-Katoa Ranch,TRUE,3,Territory,Item,00 01 00 02,"Ragni North Entrance, Riverbank Knoll",,3,"Crab Fighters, Decrepit Sewers, Cook Assistant, The Sewers of Ragni, Tunnel Trouble"
-Riverbank Knoll,TRUE,3,Territory,Item,00 01 00 03,"Ragni North Entrance, Katoa Ranch, Ragni Countryside North",,#N/A,#N/A
-Nivla Woods,TRUE,4,Territory,Item,00 01 00 0d,"Entrance to Nivla Woods, Alekin, Blooming Boulders, Road to Time Valley",,4,"Spider Mother Grove, Roots of Infestation, Old Growth Rot, Slay Spiders, Potion Making"
-Entrance to Nivla Woods,TRUE,4,Territory,Item,00 01 00 0e,"Emerald Trail, Nomads' Refuge, Nivla Woods, Road to Time Valley",,4,Infested Plants
-Maltic Coast,TRUE,4,Territory,Item,00 01 00 13,"Coastal Trail, Jagged Foothills, Ancient Waterworks, Maltic",,4,"Tidepool Terrace, Underwater"
-Road to Time Valley,TRUE,4,Territory,Item,00 01 00 14,"Entrance to Nivla Woods, Nivla Woods, Blooming Boulders",,4,"Spider Mother Grove, Mossy Grotto, Corrupt Time Warp, Infested Plants"
 Farmers Settlement,TRUE,4,Territory,Item,00 01 00 06,"Ragni Countryside South, Maltic, Ancient Waterworks, Nomads' Refuge, Emerald Trail",,7,Fire & Water
-Arachnid Woods,TRUE,5,Territory,Item,00 01 00 09,"Nomads' Refuge, Webbed Fracture, Nivla Woods Exit, Alekin",,5,"Fungas Log, Slay Skeletons, Mushroom Man, Arachnids' Ascent"
 Nomads' Refuge,TRUE,5,Territory,Item,00 01 00 07,"Farmers Settlement, Ancient Waterworks, Webbed Fracture, Arachnid Woods, Entrance to Nivla Woods",,#N/A,#N/A
-Ancient Waterworks,TRUE,5,Territory,Item,00 01 00 15,"Maltic, Maltic Coast, Jagged Foothills, Nomads' Refuge, Farmers Settlement",,#N/A,#N/A
+Blooming Boulders,TRUE,22,Territory,Item,00 01 00 08,"Road to Time Valley, Nivla Woods, Alekin, Road to Elkurn, Tempo Town",,#N/A,#N/A
+Arachnid Woods,TRUE,5,Territory,Item,00 01 00 09,"Nomads' Refuge, Webbed Fracture, Nivla Woods Exit, Alekin",,5,"Mushroom Man, Arachnids' Ascent, Fungas Log, Slay Skeletons"
 Road to Elkurn,TRUE,6,Territory,Item,00 01 00 0a,"Blooming Boulders, Nivla Woods Exit, Elkurn, Tempo Town",,6,Crypt Excavation
-Detlas Suburbs,TRUE,6,Territory,Item,00 01 00 11,"Corrupted Orchard, Scorched Trail, Detlas, Corrupted Warfront",,6,Tunnel Trouble
-Corrupted Orchard,TRUE,6,Territory,Item,00 01 00 12,"Akias Ruins, Corrupted Tower, Scorched Trail, Detlas Suburbs, Corrupted Warfront",,6,"Hex Keep Gateway, Hill Hovel, Tunnel Trouble, Taking the Tower"
-Scorched Trail,TRUE,6,Territory,Item,00 01 00 16,"Ancient Nemract, Cathedral Harbour, Detlas, Detlas Suburbs, Corrupted Orchard",,6,"Hex Keep Gateway, Willow Crypt, Cave Springs, Tunnel Trouble, Elemental Exercise"
-Corrupted Tower,TRUE,6,Territory,Item,00 01 00 17,"Razed Inn, Ancient Nemract, Corrupted Orchard, Akias Ruins",,6,"Detlas Salt Mine, Raging Tower, Tunnel Trouble, Taking the Tower"
+Corrupted Road,TRUE,25,Territory,Item,00 01 00 0b,"Akias Ruins, Corrupted Warfront, Roots of Corruption, Elkurn",,25,Recover the Past
+Emerald Trail,TRUE,1,Territory,Item,00 01 00 0c,"Ragni Main Entrance, Farmers Settlement, Entrance to Nivla Woods",,1,"Enzan's Brother, Pigman Barbeque, Corrupted Passageway"
+Nivla Woods,TRUE,4,Territory,Item,00 01 00 0d,"Entrance to Nivla Woods, Alekin, Blooming Boulders, Road to Time Valley",,4,"Potion Making, Spider Mother Grove, Roots of Infestation, Old Growth Rot, Slay Spiders"
+Entrance to Nivla Woods,TRUE,4,Territory,Item,00 01 00 0e,"Emerald Trail, Nomads' Refuge, Nivla Woods, Road to Time Valley",,4,Infested Plants
 Nivla Woods Exit,TRUE,6,Territory,Item,00 01 00 0f,"Alekin, Arachnid Woods, Nested Cliffside, Akias Ruins, Road to Elkurn",,#N/A,#N/A
 Akias Ruins,TRUE,6,Territory,Item,00 01 00 10,"Nivla Woods Exit, Corrupted Tower, Corrupted Orchard, Corrupted Warfront, Corrupted Road",,#N/A,#N/A
-Corrupted Warfront,TRUE,11,Territory,Item,00 01 00 2c,"Corrupted Road, Akias Ruins, Corrupted Orchard, Detlas Suburbs, Plains Lake, Roots of Corruption",,11,Winery Infestation
-Black Road,TRUE,12,Territory,Item,00 01 00 1f,"Essren's Hut, Lava Springs, Ternaves, Abandoned Mines Entrance",,12,"Spore Spiral, Bob's Lost Soul"
-Essren's Hut,TRUE,12,Territory,Item,00 01 00 23,"Detlas, Lava Springs, Black Road, Mine Base Plains",,12,"Slay Mooshrooms, Potion Making, Stable Story"
-*Owl Tribe,TRUE,13,Territory,Item,,,,13,"Stable Story, Canyon Condor, Tribal Aggression"
-Owl Tribe,TRUE,13,Territory,Item,00 01 00 46,"Almuj Slums, Ancient Excavation, Eagle Tribe, Sunset Plateau",,34,"Canyon Condor, Tribal Aggression"
-Webbed Fracture,TRUE,14,Territory,Item,00 01 00 19,"Nomads' Refuge, Nested Cliffside, Arachnid Woods",,14,"Infested Pit, Arachnids' Ascent"
-Lava Springs,TRUE,14,Territory,Item,00 01 00 3a,"Essren's Hut, Savannah Plains, Ternaves Tunnel, Black Road",,14,"Termite Mounds, Arachnids' Ascent, Lava Springs"
-Abandoned Farm,TRUE,16,Territory,Item,00 01 00 1e,"Pigmen Ravines, Time Valley",,#N/A,#N/A
-*Abandoned Farm,TRUE,16,Territory,Item,,,,#N/A,#N/A
-Cathedral Harbour,TRUE,18,Territory,Item,00 01 00 25,"Ancient Nemract, Nemract Cathedral, Durum Malt Islet, Durum Oat Islet, Savannah Plains, Scorched Trail",,18,"Pirate Hold, Captain's Quarters, Lovers' Cavern"
-Savannah Plains,TRUE,18,Territory,Item,00 01 00 35,"Cathedral Harbour, Bremminglar, Entrance to Almuj, Lava Springs",,19,"Captain's Quarters, Bob's Lost Soul"
-Nemract Cathedral,TRUE,18,Territory,Item,00 01 00 26,"Mount Wynn Inn, Nemract, Cathedral Harbour, Ancient Nemract",,20,Grave Digger
-Mount Wynn Inn,TRUE,18,Territory,Item,00 01 00 28,"Nested Cliffside, Blackstring Den, Nemract, Nemract Cathedral, Ancient Nemract, Razed Inn",,20,Muddy Cavern
-Ancient Nemract,TRUE,18,Territory,Item,00 01 00 33,"Mount Wynn Inn, Nemract Cathedral, Cathedral Harbour, Scorched Trail, Corrupted Tower",,21,"Underworld Crypt, The Dark Descent, Lost Tower"
-Nested Cliffside,TRUE,18,Territory,Item,00 01 00 2a,"Webbed Fracture, Blackstring Den, Mount Wynn Inn, Nivla Woods Exit",,#N/A,#N/A
-Razed Inn,TRUE,18,Territory,Item,00 01 00 2b,"Mount Wynn Inn, Corrupted Tower",,#N/A,#N/A
-Mining Base Camp,TRUE,22,Territory,Item,00 01 00 37,"Mine Base Plains, Abandoned Mines Entrance, Abandoned Pass, Abandoned Mines",,22,Lower Abandoned Mines
-Abandoned Mines,TRUE,22,Territory,Item,00 01 00 3b,"Mine Base Plains, Mining Base Camp",,22,Lower Abandoned Mines
-Sanctuary Bridge,TRUE,22,Territory,Item,00 01 00 3f,"Time Valley, Frosty Spikes",,22,"The Sacrificial Altar, Timelost Sanctum"
+Detlas Suburbs,TRUE,6,Territory,Item,00 01 00 11,"Corrupted Orchard, Scorched Trail, Detlas, Corrupted Warfront",,6,Tunnel Trouble
+Corrupted Orchard,TRUE,6,Territory,Item,00 01 00 12,"Akias Ruins, Corrupted Tower, Scorched Trail, Detlas Suburbs, Corrupted Warfront",,6,"Tunnel Trouble, Taking the Tower, Hex Keep Gateway, Hill Hovel"
+Maltic Coast,TRUE,4,Territory,Item,00 01 00 13,"Coastal Trail, Jagged Foothills, Ancient Waterworks, Maltic",,4,"Underwater, Tidepool Terrace"
+Road to Time Valley,TRUE,4,Territory,Item,00 01 00 14,"Entrance to Nivla Woods, Nivla Woods, Blooming Boulders",,4,"Infested Plants, Spider Mother Grove, Mossy Grotto, Corrupt Time Warp"
+Ancient Waterworks,TRUE,5,Territory,Item,00 01 00 15,"Maltic, Maltic Coast, Jagged Foothills, Nomads' Refuge, Farmers Settlement",,#N/A,#N/A
+Scorched Trail,TRUE,6,Territory,Item,00 01 00 16,"Ancient Nemract, Cathedral Harbour, Detlas, Detlas Suburbs, Corrupted Orchard",,6,"Tunnel Trouble, Elemental Exercise, Hex Keep Gateway, Willow Crypt, Cave Springs"
+Corrupted Tower,TRUE,6,Territory,Item,00 01 00 17,"Razed Inn, Ancient Nemract, Corrupted Orchard, Akias Ruins",,6,"Tunnel Trouble, Taking the Tower, Detlas Salt Mine, Raging Tower"
+Jagged Foothills,TRUE,23,Territory,Item,00 01 00 18,"Maltic Coast, Rocky Shore, Ancient Waterworks",,#N/A,#N/A
+Webbed Fracture,TRUE,14,Territory,Item,00 01 00 19,"Nomads' Refuge, Nested Cliffside, Arachnid Woods",,14,"Arachnids' Ascent, Infested Pit"
+Coastal Trail,TRUE,2,Territory,Item,00 01 00 1a,"Ragni Countryside North, Maltic Coast, Maltic",,2,Ancestor Grotto
 Ragni South Entrance,TRUE,22,Territory,Item,00 01 00 1b,"Ragni, Pigmen Ravines, Sulphuric Hollow",,25,Creeper Infiltration
 Sulphuric Hollow,TRUE,22,Territory,Item,00 01 00 1c,"Ragni South Entrance, Little Wood",,25,Creeper Infiltration
-Pigmen Ravines,TRUE,22,Territory,Item,00 01 00 22,"Ragni South Entrance, Abandoned Farm",,25,Creeper Infiltration
-Time Valley,TRUE,22,Territory,Item,00 01 00 3e,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,26,"Time Valley Aquifer, The Alcazar, Deja Vu"
-*Time Valley,TRUE,22,Territory,Item,,,,4,"Spider Mother Grove, Mossy Grotto, Corrupt Time Warp, Time Valley Aquifer, The Alcazar, Trunk Garrison, Infested Plants, Deja Vu"
-Blooming Boulders,TRUE,22,Territory,Item,00 01 00 08,"Road to Time Valley, Nivla Woods, Alekin, Road to Elkurn, Tempo Town",,#N/A,#N/A
 Little Wood,TRUE,22,Territory,Item,00 01 00 1d,"Sulphuric Hollow, Time Valley",,#N/A,#N/A
+Abandoned Farm,TRUE,16,Territory,Item,00 01 00 1e,"Pigmen Ravines, Time Valley",,#N/A,#N/A
+Black Road,TRUE,12,Territory,Item,00 01 00 1f,"Essren's Hut, Lava Springs, Ternaves, Abandoned Mines Entrance",,12,"Bob's Lost Soul, Spore Spiral"
 Abandoned Mines Entrance,TRUE,22,Territory,Item,00 01 00 20,"Mine Base Plains, Black Road, Ternaves, Abandoned Pass, Mining Base Camp",,#N/A,#N/A
+Bear Zoo,TRUE,39,Territory,Item,00 01 00 21,"Zhight Island, Rooster Island",,#N/A,#N/A
+Pigmen Ravines,TRUE,22,Territory,Item,00 01 00 22,"Ragni South Entrance, Abandoned Farm",,25,Creeper Infiltration
+Essren's Hut,TRUE,12,Territory,Item,00 01 00 23,"Detlas, Lava Springs, Black Road, Mine Base Plains",,12,"Potion Making, Stable Story, Slay Mooshrooms"
+Abandoned Pass,TRUE,30,Territory,Item,00 01 00 24,"Abandoned Mines Entrance, Mining Base Camp",,30,Blazing Oasis
+Cathedral Harbour,TRUE,18,Territory,Item,00 01 00 25,"Ancient Nemract, Nemract Cathedral, Durum Malt Islet, Durum Oat Islet, Savannah Plains, Scorched Trail",,18,"Pirate Hold, Captain's Quarters, Lovers' Cavern"
+Nemract Cathedral,TRUE,18,Territory,Item,00 01 00 26,"Mount Wynn Inn, Nemract, Cathedral Harbour, Ancient Nemract",,20,Grave Digger
 Rocky Shore,TRUE,23,Territory,Item,00 01 00 27,"Jagged Foothills, Nemract, Blackstring Den",,23,Boar Burrow
-Rooster Island,TRUE,23,Territory,Item,00 01 00 32,"Bear Zoo, Selchar, Durum Malt Islet, Nemract",,23,Cluck Cluck
-Jagged Foothills,TRUE,23,Territory,Item,00 01 00 18,"Maltic Coast, Rocky Shore, Ancient Waterworks",,#N/A,#N/A
+Mount Wynn Inn,TRUE,18,Territory,Item,00 01 00 28,"Nested Cliffside, Blackstring Den, Nemract, Nemract Cathedral, Ancient Nemract, Razed Inn",,20,Muddy Cavern
 Blackstring Den,TRUE,23,Territory,Item,00 01 00 29,"Rocky Shore, Mount Wynn Inn, Nested Cliffside",,#N/A,#N/A
+Nested Cliffside,TRUE,18,Territory,Item,00 01 00 2a,"Webbed Fracture, Blackstring Den, Mount Wynn Inn, Nivla Woods Exit",,#N/A,#N/A
+Razed Inn,TRUE,18,Territory,Item,00 01 00 2b,"Mount Wynn Inn, Corrupted Tower",,#N/A,#N/A
+Corrupted Warfront,TRUE,11,Territory,Item,00 01 00 2c,"Corrupted Road, Akias Ruins, Corrupted Orchard, Detlas Suburbs, Plains Lake, Roots of Corruption",,11,Winery Infestation
+Durum Oat Islet,TRUE,25,Territory,Item,00 01 00 2d,"Durum Isles Barn, Mage Island, Cathedral Harbour",,#N/A,#N/A
+Durum Malt Islet,TRUE,25,Territory,Item,00 01 00 2e,"Rooster Island, Selchar, Durum Isles Barn, Cathedral Harbour",,#N/A,#N/A
+Durum Barley Islet,TRUE,25,Territory,Item,00 01 00 2f,"Durum Isles Barn, Selchar, Nodguj Nation, Mage Island",,#N/A,#N/A
+Corrupted River,TRUE,25,Territory,Item,00 01 00 30,"Elkurn, Roots of Corruption, Desolate Valley, Nesaak Transition",,25,"Recover the Past, Corruption Mines"
+Durum Isles Barn,TRUE,25,Territory,Item,00 01 00 31,"Durum Malt Islet, Selchar, Durum Barley Islet, Durum Oat Islet",,#N/A,#N/A
+Rooster Island,TRUE,23,Territory,Item,00 01 00 32,"Bear Zoo, Selchar, Durum Malt Islet, Nemract",,23,Cluck Cluck
+Ancient Nemract,TRUE,18,Territory,Item,00 01 00 33,"Mount Wynn Inn, Nemract Cathedral, Cathedral Harbour, Scorched Trail, Corrupted Tower",,21,"The Dark Descent, Lost Tower, Underworld Crypt"
+Lion Lair,TRUE,30,Territory,Item,00 01 00 34,Bremminglar,,30,Lion's Lair
+Savannah Plains,TRUE,18,Territory,Item,00 01 00 35,"Cathedral Harbour, Bremminglar, Entrance to Almuj, Lava Springs",,19,"Bob's Lost Soul, Captain's Quarters"
 Mine Base Plains,TRUE,24,Territory,Item,00 01 00 36,"Plains Lake, Essren's Hut, Abandoned Mines Entrance, Mining Base Camp, Abandoned Mines",,24,Lake Pit
+Mining Base Camp,TRUE,22,Territory,Item,00 01 00 37,"Mine Base Plains, Abandoned Mines Entrance, Abandoned Pass, Abandoned Mines",,22,Lower Abandoned Mines
+Entrance to Almuj,TRUE,30,Territory,Item,00 01 00 38,"Savannah Plains, Almuj, Ternaves Tunnel",,#N/A,#N/A
 Ternaves Tunnel,TRUE,24,Territory,Item,00 01 00 39,"Lava Springs, Entrance to Almuj, Ternaves",,24,Termite Mounds
+Lava Springs,TRUE,14,Territory,Item,00 01 00 3a,"Essren's Hut, Savannah Plains, Ternaves Tunnel, Black Road",,14,"Arachnids' Ascent, Lava Springs, Termite Mounds"
+Abandoned Mines,TRUE,22,Territory,Item,00 01 00 3b,"Mine Base Plains, Mining Base Camp",,22,Lower Abandoned Mines
+Desolate Valley,TRUE,28,Territory,Item,00 01 00 3c,"Nesaak Transition, Corrupted River, Plains Lake",,28,The Corrupted Village
 Plains Lake,TRUE,24,Territory,Item,00 01 00 3d,"Roots of Corruption, Corrupted Warfront, Mine Base Plains, Desolate Valley",,24,Lake Pit
-Corrupted Road,TRUE,25,Territory,Item,00 01 00 0b,"Akias Ruins, Corrupted Warfront, Roots of Corruption, Elkurn",,25,Recover the Past
-Corrupted River,TRUE,25,Territory,Item,00 01 00 30,"Elkurn, Roots of Corruption, Desolate Valley, Nesaak Transition",,25,"Corruption Mines, Recover the Past"
+Time Valley,TRUE,22,Territory,Item,00 01 00 3e,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,25,"Tempo Town Trouble, Deja Vu, Time Valley Aquifer, The Alcazar"
+Sanctuary Bridge,TRUE,22,Territory,Item,00 01 00 3f,"Time Valley, Frosty Spikes",,22,"The Sacrificial Altar, Timelost Sanctum"
 Roots of Corruption,TRUE,25,Territory,Item,00 01 00 40,"Corrupted Road, Corrupted Warfront, Plains Lake, Corrupted River",,28,Corruption Mines
-Abandoned Lumberyard,TRUE,27,Territory,Item,00 01 00 b7,"Frosty Spikes, Frozen Homestead",,27,"The Alcazar, Ice Doors, Fate of the Fallen, Bob's Lost Soul"
+Skien's Island,TRUE,39,Territory,Item,00 01 00 41,"Maro Peaks, Dreary Docks, Nodguj Nation, Selchar",,55,"Reincarnation, Skien's Prison Block"
+Mage Island,TRUE,25,Territory,Item,00 01 00 42,"Durum Oat Islet, Durum Barley Islet, Nodguj Nation, Santa's Hideout, Half Moon Island",,28,"Zhight Island, The Order of the Grook, Beneath the Depths, Lush Grotto, Troll Tower, Crystalline Polynya"
 Nesaak Transition,TRUE,27,Territory,Item,00 01 00 43,"Elkurn, Corrupted River, Desolate Valley, Florist's Hut",,28,The Corrupted Village
 Frosty Spikes,TRUE,27,Territory,Item,00 01 00 44,"Sanctuary Bridge, Elkurn, Florist's Hut, Frozen Homestead, Abandoned Lumberyard",,41,Ice Doors
-Florist's Hut,TRUE,27,Territory,Item,00 01 00 b4,"Frozen Homestead, Frosty Spikes, Nesaak Transition, Bob's Tomb, Nesaak",,45,Bob's Lost Soul
-Frozen Homestead,TRUE,27,Territory,Item,00 01 00 b5,"Abandoned Lumberyard, Frosty Spikes, Florist's Hut, Nesaak, Frigid Crossroads",,45,Bob's Lost Soul
-Desolate Valley,TRUE,28,Territory,Item,00 01 00 3c,"Nesaak Transition, Corrupted River, Plains Lake",,28,The Corrupted Village
-Mage Island,TRUE,28,Territory,Item,00 01 00 42,"Durum Oat Islet, Durum Barley Islet, Nodguj Nation, Santa's Hideout, Half Moon Island",,28,"Lush Grotto, Troll Tower, Crystalline Polynya, Zhight Island, The Order of the Grook, Beneath the Depths"
-Durum Oat Islet,TRUE,28,Territory,Item,00 01 00 2d,"Durum Isles Barn, Mage Island, Cathedral Harbour",,#N/A,#N/A
-Durum Malt Islet,TRUE,28,Territory,Item,00 01 00 2e,"Rooster Island, Selchar, Durum Isles Barn, Cathedral Harbour",,#N/A,#N/A
-Durum Barley Islet,TRUE,28,Territory,Item,00 01 00 2f,"Durum Isles Barn, Selchar, Nodguj Nation, Mage Island",,#N/A,#N/A
-Durum Isles Barn,TRUE,28,Territory,Item,00 01 00 31,"Durum Malt Islet, Selchar, Durum Barley Islet, Durum Oat Islet",,#N/A,#N/A
-Abandoned Pass,TRUE,30,Territory,Item,00 01 00 24,"Abandoned Mines Entrance, Mining Base Camp",,30,Blazing Oasis
-Lion Lair,TRUE,30,Territory,Item,00 01 00 34,Bremminglar,,30,Lion's Lair
-Invaded Barracks,TRUE,30,Territory,Item,00 01 00 c0,Barren Sands,,30,"Fallen Passage, The Mercenary"
-Barren Sands,TRUE,30,Territory,Item,00 01 00 c1,"Gloopy Cave, Invaded Barracks, Accursed Dunes",,30,"Fallen Passage, The Mercenary"
-Cascading Oasis,TRUE,30,Territory,Item,00 01 00 c3,"Dusty Pit, Mummy's Tomb, Gloopy Cave",,30,"Treasure Tomb, Crystal Caverns"
-Gloopy Cave,TRUE,30,Territory,Item,00 01 00 c4,"Almuj, Cascading Oasis, Barren Sands, Ruined Villa",,30,"Crystal Caverns, Green Gloop"
-Almuj Slums,TRUE,30,Territory,Item,00 01 00 c8,"Almuj, Ruined Villa, Ancient Excavation, Owl Tribe",,30,"Dust Bowl, Sundial Sanctum, Meaningful Holiday, Wrath of the Mummy"
-Entrance to Almuj,TRUE,30,Territory,Item,00 01 00 38,"Savannah Plains, Almuj, Ternaves Tunnel",,#N/A,#N/A
-Eagle Tribe,TRUE,33,Territory,Item,00 01 00 bd,"Owl Tribe, Accursed Dunes, Sunrise Plateau",,33,"Emerald Knives Hideout, Kingdown of Sand, WynnExcavation Site A, Tribal Aggression"
-Ruined Prospect,TRUE,33,Territory,Item,00 01 00 be,"Sunset Plateau, Rymek",,33,"Slay Coyotes, Kingdown of Sand"
-Accursed Dunes,TRUE,33,Territory,Item,00 01 00 c2,"Ruined Villa, Barren Sands, Eagle Tribe",,33,"Sand-Swept Tomb, Kingdown of Sand"
-Ruined Villa,TRUE,33,Territory,Item,00 01 00 c5,"Almuj Slums, Almuj, Gloopy Cave, Accursed Dunes, Ancient Excavation",,33,Kingdown of Sand
-Ancient Excavation,TRUE,33,Territory,Item,00 01 00 c6,"Almuj Slums, Ruined Villa, Owl Tribe",,34,"Sundial Sanctum, Canyon Condor, WynnExcavation Site A"
-Sunset Plateau,TRUE,33,Territory,Item,00 01 00 bf,"Owl Tribe, Sunrise Plateau, Ruined Prospect",,37,Gator Range
-Sunrise Plateau,TRUE,34,Territory,Item,00 01 00 bc,"Sunset Plateau, Eagle Tribe, Rymek",,35,"Shadow Spears Refuge, Gator Range, Gold Rush"
+Silent Road,FALSE,,Territory,Item,00 01 00 45,"Mine Base Plains, Broken Road",,#N/A,#N/A
+Owl Tribe,TRUE,13,Territory,Item,00 01 00 46,"Almuj Slums, Ancient Excavation, Eagle Tribe, Sunset Plateau",,34,"Canyon Condor, Tribal Aggression"
+Tower of Ascension,FALSE,,Territory,Item,00 01 00 47,Icy Descent,,75,Tower of Ascension
+Half Moon Island,TRUE,25,Territory,Item,00 01 00 48,Mage Island,,25,"Half Moon Island, Dead Man's Dugout"
+Twain Lake,TRUE,45,Territory,Item,00 01 00 49,"Frigid Crossroads, Twain Mansion",,45,"WynnExcavation Site B, The House of Twain, Headless Hollow"
+Twain Mansion,TRUE,49,Territory,Item,00 01 00 4a,Twain Lake,,49,"The House of Twain, A Grave Mistake"
+Bob's Tomb,TRUE,45,Territory,Item,00 01 00 4b,"Wolves' Den, Nesaak, Florist's Hut",,45,"Bob's Lost Soul, Reincarnation"
+Temple of Legends,TRUE,52,Territory,Item,00 01 00 4c,"Troms Lake, Troms",,52,Corrupted Betrayal
 Mummy's Tomb,TRUE,36,Territory,Item,00 01 00 4d,Cascading Oasis,,36,Wrath of the Mummy
-Half Moon Island,TRUE,37,Territory,Item,00 01 00 48,Mage Island,,37,Half Moon Island
-Bear Zoo,TRUE,39,Territory,Item,00 01 00 21,"Zhight Island, Rooster Island",,#N/A,#N/A
-Skien's Island,TRUE,39,Territory,Item,00 01 00 41,"Maro Peaks, Dreary Docks, Nodguj Nation, Selchar",,55,"Skien's Prison Block, Reincarnation"
 Zhight Island,TRUE,39,Territory,Item,00 01 00 4e,"Legendary Island, Pirate Town, Bear Zoo",,55,Zhight Island
 Maro Peaks,TRUE,39,Territory,Item,00 01 00 4f,"Tree Island, Skien's Island",,74,Reincarnation
 Tree Island,TRUE,39,Territory,Item,00 01 00 50,"Volcanic Isles, Light Peninsula, Maro Peaks, Lost Atoll",,#N/A,#N/A
-Orc Road,TRUE,39,Territory,Item,00 01 00 53,"Llevigar Gate, Llevigar Stables, Orc Lake, Loamsprout Orc Camp",,39,"Clearing the Camps, Star Thief"
-Volcanic Excavation,TRUE,39,Territory,Item,00 01 00 cd,"Entrance to Gavel, Light Peninsula, Volcanic Isles, Bloody Beach",,55,WynnExcavation Site C
-Entrance to Gavel,TRUE,39,Territory,Item,00 01 00 ce,"Llevigar, Volcanic Excavation",,39,Pirate's Trove
-Llevigar Gate,TRUE,39,Territory,Item,00 01 00 cf,"Sanguine Spider Den, Llevigar Stables, Orc Road, Llevigar",,39,"Slay Orcs, Clearing the Camps"
-Sanguine Spider Den,TRUE,39,Territory,Item,00 01 00 d0,"Cliffhearth Orc Camp, Llevigar Gate",,#N/A,#N/A
-Llevigar Stables,TRUE,39,Territory,Item,00 01 00 d1,"Cliffhearth Orc Camp, Trunkstump Goblin Camp, Orc Road, Llevigar Gate",,#N/A,#N/A
-Cliffhearth Orc Camp,TRUE,39,Territory,Item,00 01 00 d2,"Meteor Trail, Llevigar Stables, Sanguine Spider Den",,39,Clearing the Camps
-Trunkstump Goblin Camp,TRUE,39,Territory,Item,00 01 00 d4,"Meteor Trail, Stonecave Orc Camp, Orc Lake, Llevigar Stables",,39,"Clearing the Camps, Star Thief"
-Volcanic Isles,TRUE,39,Territory,Item,00 01 01 6d,"Volcanic Excavation, Light Peninsula, Tree Island, Lost Atoll, Pirate Town",,58,Volcanus Pit
-Wolves' Den,TRUE,40,Territory,Item,00 01 00 b2,"Frigid Crossroads, Nesaak, Bob's Tomb",,40,"Wolf Den, Ice Barrows, Slay Creatures of Nesaak Forest, Underice, Fate of the Fallen"
-Orc Lake,TRUE,42,Territory,Item,00 01 00 52,"Trunkstump Goblin Camp, Stonecave Orc Camp, Sunspark Orc Camp, Sablestone Orc Camp, Orc Road",,42,"Star Thief, Blazing Retribution"
-Meteor Trail,TRUE,42,Territory,Item,00 01 00 d5,"Brigand Outpost, Trunkstump Goblin Camp, Cliffhearth Orc Camp",,42,Star Thief
-Stonecave Orc Camp,TRUE,42,Territory,Item,00 01 00 d7,"Brigand Outpost, Mudspring Orc Camp, Sunspark Orc Camp, Orc Lake, Trunkstump Goblin Camp",,42,Star Thief
-Frigid Crossroads,TRUE,43,Territory,Item,00 01 00 b3,"Icy Vigil, Frozen Homestead, Nesaak, Wolves' Den, Twain Lake, Icy Descent",,43,"Underice, Bob's Lost Soul"
-Icy Descent,TRUE,44,Territory,Item,00 01 00 91,"Tower of Ascension, Frigid Crossroads, Lusuco",,45,"Raging Survivor, Frost Bite"
-Sablestone Orc Camp,TRUE,44,Territory,Item,00 01 00 ef,"Orc Lake, Meteor Crater, Goblin Plains West, Loamsprout Orc Camp",,44,Blazing Retribution
-Loamsprout Orc Camp,TRUE,44,Territory,Item,00 01 00 f0,"Orc Road, Sablestone Orc Camp, Llevigar Farm, Shineridge Orc Camp",,44,"Holehold Orc Camp, Blazing Retribution"
-Twain Lake,TRUE,45,Territory,Item,00 01 00 49,"Frigid Crossroads, Twain Mansion",,45,"Headless Hollow, WynnExcavation Site B, The House of Twain"
-Icy Vigil,TRUE,45,Territory,Item,00 01 00 b6,"Great Bridge, Frigid Crossroads",,45,"Raging Survivor, Breaking Ice"
-Bob's Tomb,TRUE,45,Territory,Item,00 01 00 4b,"Wolves' Den, Nesaak, Florist's Hut",,45,"Bob's Lost Soul, Reincarnation"
-Llevigar Farm,TRUE,45,Territory,Item,00 01 00 57,"Loamsprout Orc Camp, Goblin Plains West, Goblin Plains East, Entrance to Bucie, Bucie Waterfall, Shineridge Orc Camp",,#N/A,#N/A
-Karoc Quarry,TRUE,45,Territory,Item,00 01 00 ea,"Llevigar, Shineridge Orc Camp, Harnort Compound",,49,Rise of the Quartron
-Shineridge Orc Camp,TRUE,45,Territory,Item,00 01 00 ec,"Loamsprout Orc Camp, Bucie Waterfall, Karoc Quarry",,45,"Shineridge Orc Camp, Rise of the Quartron"
-Bucie Waterfall,TRUE,45,Territory,Item,00 01 00 ed,"Shineridge Orc Camp, Entrance to Bucie, Harnort Compound",,45,Shineridge Orc Camp
-Goblin Plains West,TRUE,46,Territory,Item,00 01 00 56,"Sablestone Orc Camp, Iron Road, Goblin Plains East, Llevigar Farm",,49,An Iron Heart Part I
-Goblin Plains East,TRUE,46,Territory,Item,00 01 00 59,"Goblin Plains West, Forgotten Path, Entrance to Bucie, Llevigar Farm",,46,Secret Mine
-Brigand Outpost,TRUE,46,Territory,Item,00 01 00 d6,"Collapsed Emerald Mine, Stonecave Orc Camp, Meteor Trail",,46,Sol Hive
-Twain Mansion,TRUE,49,Territory,Item,00 01 00 4a,Twain Lake,,49,"The House of Twain, A Grave Mistake"
-Iron Road,TRUE,49,Territory,Item,00 01 00 55,"Meteor Crater, Lizardman Camp, Forgotten Path, Goblin Plains West",,49,An Iron Heart Part I
-Harnort Compound,TRUE,49,Territory,Item,00 01 00 eb,"Karoc Quarry, Bucie Waterfall",,49,Rise of the Quartron
 Entrance to Olux,TRUE,50,Territory,Item,00 01 00 51,"Shady Shack, Olux, Lizardman Lake, Bloody Trail, Lizardman Camp",,54,The Shadow of the Beast
-Meteor Crater,TRUE,50,Territory,Item,00 01 00 54,"Sunspark Orc Camp, Iron Road, Sablestone Orc Camp",,53,Master Piece
+Orc Lake,TRUE,42,Territory,Item,00 01 00 52,"Trunkstump Goblin Camp, Stonecave Orc Camp, Sunspark Orc Camp, Sablestone Orc Camp, Orc Road",,42,"Star Thief, Blazing Retribution"
+Orc Road,TRUE,39,Territory,Item,00 01 00 53,"Llevigar Gate, Llevigar Stables, Orc Lake, Loamsprout Orc Camp",,39,"Clearing the Camps, Star Thief"
+Meteor Crater,TRUE,50,Territory,Item,00 01 00 54,"Sunspark Orc Camp, Iron Road, Sablestone Orc Camp",,49,"An Iron Heart Part I, Master Piece"
+Iron Road,TRUE,49,Territory,Item,00 01 00 55,"Meteor Crater, Lizardman Camp, Forgotten Path, Goblin Plains West",,49,An Iron Heart Part I
+Goblin Plains West,TRUE,46,Territory,Item,00 01 00 56,"Sablestone Orc Camp, Iron Road, Goblin Plains East, Llevigar Farm",,49,An Iron Heart Part I
+Llevigar Farm,TRUE,45,Territory,Item,00 01 00 57,"Loamsprout Orc Camp, Goblin Plains West, Goblin Plains East, Entrance to Bucie, Bucie Waterfall, Shineridge Orc Camp",,#N/A,#N/A
 Forgotten Path,TRUE,50,Territory,Item,00 01 00 58,"Iron Road, Bloody Trail, Goblin Plains East",,#N/A,#N/A
-Great Bridge,TRUE,50,Territory,Item,00 01 00 b8,"Jungle Entrance, Icy Vigil",,#N/A,#N/A
-Jungle Entrance,TRUE,50,Territory,Item,00 01 00 b9,"Monte's Village, Herb Cave, Great Bridge",,50,Slay Slimes
-Apprentice Huts,TRUE,50,Territory,Item,00 01 00 ba,"Iboju Village, Troms Lake, Monte's Village",,52,"Thunder Grub Nest, Corrupted Betrayal"
-Troms Lake,TRUE,50,Territory,Item,00 01 00 bb,"Troms, Temple of Legends, Herb Cave, Apprentice Huts",,52,"Trunk Garrison, Jungle Labyrinth, Undergrowth Ruins, Corrupted Betrayal"
-Collapsed Emerald Mine,TRUE,50,Territory,Item,00 01 00 d8,"Ogre Den, Mudspring Orc Camp, Brigand Outpost",,57,Fire Swamp
-Mudspring Orc Camp,TRUE,50,Territory,Item,00 01 00 d9,"Collapsed Emerald Mine, Floral Peaks, Sunspark Orc Camp, Stonecave Orc Camp",,55,"Lily Pad Parkour, Fire Swamp"
-Floral Peaks,TRUE,50,Territory,Item,00 01 00 da,"Ogre Den, Maiden Tower, Swamp Mountain Arch, Mudspring Orc Camp",,53,"Lily Pad Parkour, Sewer Herps, Fire Swamp, Naga Dugout, Death Whistle"
-Ogre Den,TRUE,50,Territory,Item,00 01 00 db,"Witching Road, Floral Peaks, Collapsed Emerald Mine",,51,"Fire Swamp, The Maiden Tower"
-Witching Road,TRUE,50,Territory,Item,00 01 00 dc,"Infested Sinkhole, Maiden Tower, Ogre Den",,50,"Swamp Hill, Death Whistle, The Worm Holes"
-Maiden Tower,TRUE,50,Territory,Item,00 01 00 dd,"Witching Road, Forgotten Burrows, Shady Shack, Floral Peaks",,50,"Swamp Hill, Sewer Herps, The Maiden Tower, Death Whistle"
-Bloody Trail,TRUE,50,Territory,Item,00 01 00 e0,"Lizardman Camp, Entrance to Olux, Lizardman Lake, Overtaken Outpost, Mangled Lake, Forgotten Path",,50,"Toads in a Hole, Sink Hole, Master Piece, The Shadow of the Beast, Reclaiming the House"
-Lizardman Camp,TRUE,50,Territory,Item,00 01 00 e3,"Swamp Mountain Arch, Entrance to Olux, Bloody Trail, Iron Road",,50,"Toads in a Hole, Master Piece"
-Swamp Mountain Arch,TRUE,50,Territory,Item,00 01 00 e4,"Floral Peaks, Shady Shack, Lizardman Camp, Sunspark Orc Camp",,53,"Lily Pad Parkour, Master Piece"
-Shady Shack,TRUE,50,Territory,Item,00 01 00 e5,"Maiden Tower, Forgotten Burrows, Entrance to Olux, Swamp Mountain Arch",,55,Slay Lizardmen
-Sunspark Orc Camp,TRUE,50,Territory,Item,00 01 00 ee,"Stonecave Orc Camp, Mudspring Orc Camp, Swamp Mountain Arch, Meteor Crater, Orc Lake",,53,"Lily Pad Parkour, Master Piece"
-Monte's Village,TRUE,50,Territory,Item,00 01 01 6c,"Apprentice Huts, Jungle Entrance",,52,"Thunder Grub Nest, Jungle Horrors, Rotten Altar, Corrupted Betrayal"
-Temple of Legends,TRUE,52,Territory,Item,00 01 00 4c,"Troms Lake, Troms",,52,Corrupted Betrayal
-Infested Sinkhole,TRUE,53,Territory,Item,00 01 00 de,"Secluded Workshop, Forgotten Burrows, Witching Road",,53,"Death Whistle, The Worm Holes"
-Forgotten Burrows,TRUE,53,Territory,Item,00 01 00 df,"Infested Sinkhole, Naga Lake, Path to the Grootslangs, Shady Shack, Maiden Tower",,54,The Worm Holes
-Lizardman Lake,TRUE,53,Territory,Item,00 01 00 e1,"Entrance to Olux, Olux, Olux Lumberyard, Fading Forest, Bloody Trail",,53,"Maddening Mud, The Shadow of the Beast"
-Olux Lumberyard,TRUE,53,Territory,Item,00 01 00 e2,"Olux, Fading Forest, Lizardman Lake",,#N/A,#N/A
-Path to the Grootslangs,TRUE,54,Territory,Item,00 01 00 e9,"Naga Lake, Olux, Forgotten Burrows",,54,The Worm Holes
-Fading Forest,TRUE,54,Territory,Item,00 01 01 07,"Lizardman Lake, Olux Lumberyard, Castle Dullahan, Gelibord Watermill, Overtaken Outpost",,54,"Slay Wraiths & Phantasms, The Shadow of the Beast, Taproot"
-Scorpion Nest,TRUE,58,Territory,Item,00 01 00 e6,Secluded Workshop,,#N/A,#N/A
-Secluded Workshop,TRUE,58,Territory,Item,00 01 00 e7,"Scorpion Nest, Naga Lake, Infested Sinkhole",,58,An Iron Heart Part II
-Naga Lake,TRUE,58,Territory,Item,00 01 00 e8,"Secluded Workshop, Path to the Grootslangs, Forgotten Burrows, Infested Sinkhole",,#N/A,#N/A
-Silent Road,FALSE,,Territory,Item,00 01 00 45,"Mine Base Plains, Broken Road",,#N/A,#N/A
-Tower of Ascension,FALSE,,Territory,Item,00 01 00 47,Icy Descent,,75,Tower of Ascension
+Goblin Plains East,TRUE,46,Territory,Item,00 01 00 59,"Goblin Plains West, Forgotten Path, Entrance to Bucie, Llevigar Farm",,46,Secret Mine
 Mantis Nest,FALSE,,Territory,Item,00 01 00 5a,,,#N/A,#N/A
 Path to Cinfras,FALSE,,Territory,Item,00 01 00 5b,,,#N/A,#N/A
 Twisted Housing,FALSE,,Territory,Item,00 01 00 5c,,,66,Elemental Hollow
@@ -232,7 +101,7 @@ Dark Forest Village,FALSE,,Territory,Item,00 01 00 61,,,#N/A,#N/A
 Fungal Grove,FALSE,,Territory,Item,00 01 00 62,,,75,Weirding Ring
 Decayed Basin,FALSE,,Territory,Item,00 01 00 63,,,72,Lexdale Witch Trials
 Heart of Decay,FALSE,,Territory,Item,00 01 00 64,,,72,Lexdale Witch Trials
-Mushroom Hill,FALSE,,Territory,Item,00 01 00 65,,,72,"Kander Crypt, Bandit Groundbreaking, Hunger of the Gerts Part I"
+Mushroom Hill,FALSE,,Territory,Item,00 01 00 65,,,72,"Hunger of the Gerts Part I, Kander Crypt, Bandit Groundbreaking"
 Fallen Village,FALSE,,Territory,Item,00 01 00 66,,,#N/A,#N/A
 Guild Hall,FALSE,,Territory,Item,00 01 00 67,,,78,Slay Felrocs
 Cinfras's Small Farm,FALSE,,Territory,Item,00 01 00 68,,,#N/A,#N/A
@@ -240,7 +109,7 @@ Gert Camp,FALSE,,Territory,Item,00 01 00 69,,,77,"Hunger of the Gerts Part I, Hu
 Jitak's Farm,FALSE,,Territory,Item,00 01 00 6a,,,77,Hunger of the Gerts Part I
 Burning Farm,FALSE,,Territory,Item,00 01 00 6b,,,#N/A,#N/A
 Burning Airship,FALSE,,Territory,Item,00 01 00 6c,,,#N/A,#N/A
-Thanos Exit,FALSE,,Territory,Item,00 01 00 6d,,,#N/A,#N/A
+Thanos Exit,FALSE,,Territory,Item,00 01 00 6d,,,97,The Breaking Point
 Canyon Dropoff,FALSE,,Territory,Item,00 01 00 6e,,,#N/A,#N/A
 Krolton's Cave,FALSE,,Territory,Item,00 01 00 6f,,,#N/A,#N/A
 Canyon High Path,FALSE,,Territory,Item,00 01 00 70,,,#N/A,#N/A
@@ -248,14 +117,14 @@ Kandon Farm,FALSE,,Territory,Item,00 01 00 72,,,#N/A,#N/A
 Cliffside Passage North,FALSE,,Territory,Item,00 01 00 73,,,#N/A,#N/A
 Ranol's Farm,FALSE,,Territory,Item,00 01 00 74,,,#N/A,#N/A
 Thesead Suburbs,FALSE,,Territory,Item,00 01 00 75,,,#N/A,#N/A
-Crater Descent,FALSE,,Territory,Item,00 01 00 76,,,#N/A,#N/A
+Crater Descent,FALSE,,Territory,Item,00 01 00 76,,,92,"Dwarves and Doguns Part II, Dwarves and Doguns Part IV, The Breaking Point"
 Temple Island,FALSE,,Territory,Item,00 01 00 77,,,#N/A,#N/A
 Snail Island,FALSE,,Territory,Item,00 01 00 78,,,98,Slay Angels
-Corkus Castle,FALSE,,Territory,Item,00 01 00 79,,,#N/A,#N/A
+Corkus Castle,FALSE,,Territory,Item,00 01 00 79,,,83,"The Envoy Part I, The Envoy Part II"
 Fallen Factory,FALSE,,Territory,Item,00 01 00 7a,,,90,Fallen Factory
 Corkus City Mine,FALSE,,Territory,Item,00 01 00 7b,,,#N/A,#N/A
 Ruined Houses,FALSE,,Territory,Item,00 01 00 7c,,,#N/A,#N/A
-Avos Temple,FALSE,,Territory,Item,00 01 00 7d,,,#N/A,#N/A
+Avos Temple,FALSE,,Territory,Item,00 01 00 7d,,,89,The Envoy Part II
 Bloody Beach,FALSE,,Territory,Item,00 01 00 7e,,,#N/A,#N/A
 Corkus Outskirts,FALSE,,Territory,Item,00 01 00 7f,,,95,Slay Astrochelys Manis
 Frozen Fort,FALSE,,Territory,Item,00 01 00 80,,,#N/A,#N/A
@@ -275,17 +144,18 @@ Sky Falls,FALSE,,Territory,Item,00 01 00 8d,,,#N/A,#N/A
 Jofash Tunnel,FALSE,,Territory,Item,00 01 00 8e,,,#N/A,#N/A
 Jofash Docks,FALSE,,Territory,Item,00 01 00 8f,,,#N/A,#N/A
 Santa's Hideout,FALSE,,Territory,Item,00 01 00 90,"Nodguj Nation, Icy Island, Mage Island",,#N/A,#N/A
+Icy Descent,TRUE,44,Territory,Item,00 01 00 91,"Tower of Ascension, Frigid Crossroads, Lusuco",,45,"Frost Bite, Raging Survivor"
 Cinfras Outskirts,FALSE,,Territory,Item,00 01 00 92,,,75,Weirding Ring
 Regular Island,FALSE,,Territory,Item,00 01 00 93,"Dujgon Nation, Disturbed Crypt, Jofash Docks, Icy Island",,#N/A,#N/A
 Herb Cave,FALSE,,Territory,Item,00 01 00 94,"Troms Lake, Jungle Entrance",,#N/A,#N/A
-Twisted Ridge,FALSE,,Territory,Item,00 01 00 95,,,69,"Visceral Remant, Lazarus Pit"
+Twisted Ridge,FALSE,,Territory,Item,00 01 00 95,,,69,"Lazarus Pit, Visceral Remant"
 Icy Island,FALSE,,Territory,Item,00 01 00 96,"Nodguj Nation, Dujgon Nation, Regular Island, Santa's Hideout",,#N/A,#N/A
-Royal Gate,FALSE,,Territory,Item,00 01 00 97,,,#N/A,#N/A
+Royal Gate,FALSE,,Territory,Item,00 01 00 97,,,104,A Journey Home
 Fleris Trail,FALSE,,Territory,Item,00 01 00 98,,,#N/A,#N/A
 Orc Battlegrounds,FALSE,,Territory,Item,00 01 00 99,,,#N/A,#N/A
 Lost Atoll,FALSE,,Territory,Item,00 01 00 9a,"Volcanic Isles, Tree Island, Pirate Town",,63,Galleon's Graveyard
 Southern Outpost,FALSE,,Territory,Item,00 01 00 9b,,,#N/A,#N/A
-Corkus Sea Cove,FALSE,,Territory,Item,00 01 00 9c,,,#N/A,#N/A
+Corkus Sea Cove,FALSE,,Territory,Item,00 01 00 9c,,,89,The Envoy Part II
 Worm Tunnel,FALSE,,Territory,Item,00 01 00 9d,,,#N/A,#N/A
 Grey Ruins,FALSE,,Territory,Item,00 01 00 9e,,,#N/A,#N/A
 Forgotten Town,FALSE,,Territory,Item,00 01 00 9f,,,#N/A,#N/A
@@ -307,12 +177,69 @@ Path to Light,FALSE,,Territory,Item,00 01 00 ae,,,#N/A,#N/A
 Nexus of Light,FALSE,,Territory,Item,00 01 00 af,,,#N/A,#N/A
 Light Peninsula,FALSE,,Territory,Item,00 01 00 b0,,,#N/A,#N/A
 Field of Life,FALSE,,Territory,Item,00 01 00 b1,,,#N/A,#N/A
+Wolves' Den,TRUE,40,Territory,Item,00 01 00 b2,"Frigid Crossroads, Nesaak, Bob's Tomb",,40,"Underice, Fate of the Fallen, Wolf Den, Ice Barrows, Slay Creatures of Nesaak Forest"
+Frigid Crossroads,TRUE,43,Territory,Item,00 01 00 b3,"Icy Vigil, Frozen Homestead, Nesaak, Wolves' Den, Twain Lake, Icy Descent",,43,"Underice, Bob's Lost Soul"
+Florist's Hut,TRUE,27,Territory,Item,00 01 00 b4,"Frozen Homestead, Frosty Spikes, Nesaak Transition, Bob's Tomb, Nesaak",,45,Bob's Lost Soul
+Frozen Homestead,TRUE,27,Territory,Item,00 01 00 b5,"Abandoned Lumberyard, Frosty Spikes, Florist's Hut, Nesaak, Frigid Crossroads",,45,Bob's Lost Soul
+Icy Vigil,TRUE,45,Territory,Item,00 01 00 b6,"Great Bridge, Frigid Crossroads",,45,"Raging Survivor, Breaking Ice"
+Abandoned Lumberyard,TRUE,27,Territory,Item,00 01 00 b7,"Frosty Spikes, Frozen Homestead",,27,"Fate of the Fallen, Bob's Lost Soul, The Alcazar, Ice Doors"
+Great Bridge,TRUE,50,Territory,Item,00 01 00 b8,"Jungle Entrance, Icy Vigil",,#N/A,#N/A
+Jungle Entrance,TRUE,50,Territory,Item,00 01 00 b9,"Monte's Village, Herb Cave, Great Bridge",,50,Slay Slimes
+Apprentice Huts,TRUE,50,Territory,Item,00 01 00 ba,"Iboju Village, Troms Lake, Monte's Village",,52,"Corrupted Betrayal, Thunder Grub Nest"
+Troms Lake,TRUE,50,Territory,Item,00 01 00 bb,"Troms, Temple of Legends, Herb Cave, Apprentice Huts",,52,"Corrupted Betrayal, Trunk Garrison, Jungle Labyrinth, Undergrowth Ruins"
+Sunrise Plateau,TRUE,34,Territory,Item,00 01 00 bc,"Sunset Plateau, Eagle Tribe, Rymek",,35,"Shadow Spears Refuge, Gator Range, Gold Rush"
+Eagle Tribe,TRUE,33,Territory,Item,00 01 00 bd,"Owl Tribe, Accursed Dunes, Sunrise Plateau",,33,"Kingdom of Sand, WynnExcavation Site A, Tribal Aggression, Emerald Knives Hideout"
+Ruined Prospect,TRUE,33,Territory,Item,00 01 00 be,"Sunset Plateau, Rymek",,33,"Kingdom of Sand, Slay Coyotes"
+Sunset Plateau,TRUE,33,Territory,Item,00 01 00 bf,"Owl Tribe, Sunrise Plateau, Ruined Prospect",,37,Gator Range
+Invaded Barracks,TRUE,30,Territory,Item,00 01 00 c0,Barren Sands,,30,"The Mercenary, Fallen Passage"
+Barren Sands,TRUE,30,Territory,Item,00 01 00 c1,"Gloopy Cave, Invaded Barracks, Accursed Dunes",,30,"The Mercenary, Fallen Passage"
+Accursed Dunes,TRUE,33,Territory,Item,00 01 00 c2,"Ruined Villa, Barren Sands, Eagle Tribe",,33,"Kingdom of Sand, Sand-Swept Tomb"
+Cascading Oasis,TRUE,30,Territory,Item,00 01 00 c3,"Dusty Pit, Mummy's Tomb, Gloopy Cave",,30,"A Sandy Scandal, Treasure Tomb, Crystal Caverns"
+Gloopy Cave,TRUE,30,Territory,Item,00 01 00 c4,"Almuj, Cascading Oasis, Barren Sands, Ruined Villa",,30,"Green Gloop, Crystal Caverns"
+Ruined Villa,TRUE,33,Territory,Item,00 01 00 c5,"Almuj Slums, Almuj, Gloopy Cave, Accursed Dunes, Ancient Excavation",,31,"Green Gloop, Kingdom of Sand"
+Ancient Excavation,TRUE,33,Territory,Item,00 01 00 c6,"Almuj Slums, Ruined Villa, Owl Tribe",,34,"Canyon Condor, WynnExcavation Site A, Sundial Sanctum"
 Dusty Pit,FALSE,,Territory,Item,00 01 00 c7,"Cascading Oasis, Almuj",,#N/A,#N/A
+Almuj Slums,TRUE,30,Territory,Item,00 01 00 c8,"Almuj, Ruined Villa, Ancient Excavation, Owl Tribe",,30,"Meaningful Holiday, Wrath of the Mummy, Dust Bowl, Sundial Sanctum"
 Lifeless Forest,FALSE,,Territory,Item,00 01 00 c9,"Derelict Mansion, Jofash Docks, Disturbed Crypt",,70,Haven Antiquity
 Disturbed Crypt,FALSE,,Territory,Item,00 01 00 ca,"Dreary Docks, Lifeless Forest, Regular Island, Dujgon Nation",,70,Haven Antiquity
 Derelict Mansion,FALSE,,Territory,Item,00 01 00 cb,"Lifeless Forest, Dreary Docks",,70,Haven Antiquity
-Dreary Docks,FALSE,,Territory,Item,00 01 00 cc,"Derelict Mansion, Disturbed Crypt, Dujgon Nation, Skien's Island",,70,"Slay Dead Villagers, Haven Antiquity"
+Dreary Docks,FALSE,,Territory,Item,00 01 00 cc,"Derelict Mansion, Disturbed Crypt, Dujgon Nation, Skien's Island",,70,"Haven Antiquity, Slay Dead Villagers"
+Volcanic Excavation,TRUE,39,Territory,Item,00 01 00 cd,"Entrance to Gavel, Light Peninsula, Volcanic Isles, Bloody Beach",,55,WynnExcavation Site C
+Entrance to Gavel,TRUE,39,Territory,Item,00 01 00 ce,"Llevigar, Volcanic Excavation",,39,Pirate's Trove
+Llevigar Gate,TRUE,39,Territory,Item,00 01 00 cf,"Sanguine Spider Den, Llevigar Stables, Orc Road, Llevigar",,39,"Clearing the Camps, Slay Orcs"
+Sanguine Spider Den,TRUE,39,Territory,Item,00 01 00 d0,"Cliffhearth Orc Camp, Llevigar Gate",,#N/A,#N/A
+Llevigar Stables,TRUE,39,Territory,Item,00 01 00 d1,"Cliffhearth Orc Camp, Trunkstump Goblin Camp, Orc Road, Llevigar Gate",,#N/A,#N/A
+Cliffhearth Orc Camp,TRUE,39,Territory,Item,00 01 00 d2,"Meteor Trail, Llevigar Stables, Sanguine Spider Den",,39,Clearing the Camps
 The Hive,FALSE,,Territory,Item,00 01 00 d3,,,80,The Qira Hive
+Trunkstump Goblin Camp,TRUE,39,Territory,Item,00 01 00 d4,"Meteor Trail, Stonecave Orc Camp, Orc Lake, Llevigar Stables",,39,"Clearing the Camps, Star Thief"
+Meteor Trail,TRUE,42,Territory,Item,00 01 00 d5,"Brigand Outpost, Trunkstump Goblin Camp, Cliffhearth Orc Camp",,42,Star Thief
+Brigand Outpost,TRUE,46,Territory,Item,00 01 00 d6,"Collapsed Emerald Mine, Stonecave Orc Camp, Meteor Trail",,46,Sol Hive
+Stonecave Orc Camp,TRUE,42,Territory,Item,00 01 00 d7,"Brigand Outpost, Mudspring Orc Camp, Sunspark Orc Camp, Orc Lake, Trunkstump Goblin Camp",,42,Star Thief
+Collapsed Emerald Mine,TRUE,50,Territory,Item,00 01 00 d8,"Ogre Den, Mudspring Orc Camp, Brigand Outpost",,57,Fire Swamp
+Mudspring Orc Camp,TRUE,50,Territory,Item,00 01 00 d9,"Collapsed Emerald Mine, Floral Peaks, Sunspark Orc Camp, Stonecave Orc Camp",,55,"Lily Pad Parkour, Fire Swamp"
+Floral Peaks,TRUE,50,Territory,Item,00 01 00 da,"Ogre Den, Maiden Tower, Swamp Mountain Arch, Mudspring Orc Camp",,53,"Death Whistle, Lily Pad Parkour, Sewer Herps, Fire Swamp, Naga Dugout"
+Ogre Den,TRUE,50,Territory,Item,00 01 00 db,"Witching Road, Floral Peaks, Collapsed Emerald Mine",,51,"The Maiden Tower, Fire Swamp"
+Witching Road,TRUE,50,Territory,Item,00 01 00 dc,"Infested Sinkhole, Maiden Tower, Ogre Den",,50,"Death Whistle, The Worm Holes, Swamp Hill"
+Maiden Tower,TRUE,50,Territory,Item,00 01 00 dd,"Witching Road, Forgotten Burrows, Shady Shack, Floral Peaks",,50,"The Maiden Tower, Death Whistle, Swamp Hill, Sewer Herps"
+Infested Sinkhole,TRUE,53,Territory,Item,00 01 00 de,"Secluded Workshop, Forgotten Burrows, Witching Road",,53,"Death Whistle, The Worm Holes"
+Forgotten Burrows,TRUE,53,Territory,Item,00 01 00 df,"Infested Sinkhole, Naga Lake, Path to the Grootslangs, Shady Shack, Maiden Tower",,54,The Worm Holes
+Bloody Trail,TRUE,50,Territory,Item,00 01 00 e0,"Lizardman Camp, Entrance to Olux, Lizardman Lake, Overtaken Outpost, Mangled Lake, Forgotten Path",,50,"Master Piece, The Shadow of the Beast, Reclaiming the House, Toads in a Hole, Sink Hole"
+Lizardman Lake,TRUE,53,Territory,Item,00 01 00 e1,"Entrance to Olux, Olux, Olux Lumberyard, Fading Forest, Bloody Trail",,53,"The Shadow of the Beast, Maddening Mud"
+Olux Lumberyard,TRUE,53,Territory,Item,00 01 00 e2,"Olux, Fading Forest, Lizardman Lake",,#N/A,#N/A
+Lizardman Camp,TRUE,50,Territory,Item,00 01 00 e3,"Swamp Mountain Arch, Entrance to Olux, Bloody Trail, Iron Road",,50,"Master Piece, Toads in a Hole"
+Swamp Mountain Arch,TRUE,50,Territory,Item,00 01 00 e4,"Floral Peaks, Shady Shack, Lizardman Camp, Sunspark Orc Camp",,53,"Master Piece, Lily Pad Parkour"
+Shady Shack,TRUE,50,Territory,Item,00 01 00 e5,"Maiden Tower, Forgotten Burrows, Entrance to Olux, Swamp Mountain Arch",,55,Slay Lizardmen
+Scorpion Nest,TRUE,58,Territory,Item,00 01 00 e6,Secluded Workshop,,#N/A,#N/A
+Secluded Workshop,TRUE,58,Territory,Item,00 01 00 e7,"Scorpion Nest, Naga Lake, Infested Sinkhole",,58,An Iron Heart Part II
+Naga Lake,TRUE,58,Territory,Item,00 01 00 e8,"Secluded Workshop, Path to the Grootslangs, Forgotten Burrows, Infested Sinkhole",,#N/A,#N/A
+Path to the Grootslangs,TRUE,54,Territory,Item,00 01 00 e9,"Naga Lake, Olux, Forgotten Burrows",,54,The Worm Holes
+Karoc Quarry,TRUE,45,Territory,Item,00 01 00 ea,"Llevigar, Shineridge Orc Camp, Harnort Compound",,49,Rise of the Quartron
+Harnort Compound,TRUE,49,Territory,Item,00 01 00 eb,"Karoc Quarry, Bucie Waterfall",,49,Rise of the Quartron
+Shineridge Orc Camp,TRUE,45,Territory,Item,00 01 00 ec,"Loamsprout Orc Camp, Bucie Waterfall, Karoc Quarry",,45,"Rise of the Quartron, Shineridge Orc Camp"
+Bucie Waterfall,TRUE,45,Territory,Item,00 01 00 ed,"Shineridge Orc Camp, Entrance to Bucie, Harnort Compound",,45,Shineridge Orc Camp
+Sunspark Orc Camp,TRUE,50,Territory,Item,00 01 00 ee,"Stonecave Orc Camp, Mudspring Orc Camp, Swamp Mountain Arch, Meteor Crater, Orc Lake",,49,"An Iron Heart Part I, Master Piece, Lily Pad Parkour"
+Sablestone Orc Camp,TRUE,44,Territory,Item,00 01 00 ef,"Orc Lake, Meteor Crater, Goblin Plains West, Loamsprout Orc Camp",,44,Blazing Retribution
+Loamsprout Orc Camp,TRUE,44,Territory,Item,00 01 00 f0,"Orc Road, Sablestone Orc Camp, Llevigar Farm, Shineridge Orc Camp",,44,"Blazing Retribution, Holehold Orc Camp"
 Centerworld Fortress,FALSE,,Territory,Item,00 01 00 f1,,,#N/A,#N/A
 Road to Light Forest,FALSE,,Territory,Item,00 01 00 f2,,,#N/A,#N/A
 Efilim Crossroads,FALSE,,Territory,Item,00 01 00 f3,,,#N/A,#N/A
@@ -334,9 +261,10 @@ The Shiar,FALSE,,Territory,Item,00 01 01 02,,,#N/A,#N/A
 Chasm Overlook,FALSE,,Territory,Item,00 01 01 03,,,#N/A,#N/A
 Enchanted River,FALSE,,Territory,Item,00 01 01 04,,,#N/A,#N/A
 Gelibord Watermill,FALSE,,Territory,Item,00 01 01 05,,,64,A Headless History
-Castle Dullahan,FALSE,,Territory,Item,00 01 01 06,,,64,"Dullahan Gardens, A Headless History, Lazarus Pit"
+Castle Dullahan,FALSE,,Territory,Item,00 01 01 06,,,64,"A Headless History, Lazarus Pit, Dullahan Gardens"
+Fading Forest,TRUE,54,Territory,Item,00 01 01 07,"Lizardman Lake, Olux Lumberyard, Castle Dullahan, Gelibord Watermill, Overtaken Outpost",,54,"The Shadow of the Beast, Taproot, Slay Wraiths & Phantasms"
 Overtaken Outpost,FALSE,,Territory,Item,00 01 01 08,,,61,Reclaiming the House
-Mangled Lake,FALSE,,Territory,Item,00 01 01 09,,,61,"Fortress Catacombs, Reclaiming the House"
+Mangled Lake,FALSE,,Territory,Item,00 01 01 09,,,61,"Reclaiming the House, Fortress Catacombs"
 Caritat Mansion,FALSE,,Territory,Item,00 01 01 0a,,,67,Memory Paranoia
 Lexdale Penitentiary,FALSE,,Territory,Item,00 01 01 0b,,,72,Forbidden Prison
 Path to the Penitentiary,FALSE,,Territory,Item,00 01 01 0c,,,#N/A,#N/A
@@ -369,10 +297,10 @@ Path to Thanos,FALSE,,Territory,Item,00 01 01 26,,,#N/A,#N/A
 Kitrios Armory,FALSE,,Territory,Item,00 01 01 27,,,#N/A,#N/A
 Kitrios Barracks,FALSE,,Territory,Item,00 01 01 28,,,#N/A,#N/A
 Colourful Mountaintop,FALSE,,Territory,Item,00 01 01 29,,,#N/A,#N/A
-Upper Thanos,FALSE,,Territory,Item,00 01 01 2a,,,#N/A,#N/A
-Molten Passage,FALSE,,Territory,Item,00 01 01 2b,,,#N/A,#N/A
-Path to Ozoth's Spire,FALSE,,Territory,Item,00 01 01 2c,,,#N/A,#N/A
-Inhospitable Mountain,FALSE,,Territory,Item,00 01 01 2d,,,#N/A,#N/A
+Upper Thanos,FALSE,,Territory,Item,00 01 01 2a,,,97,The Breaking Point
+Molten Passage,FALSE,,Territory,Item,00 01 01 2b,,,97,The Breaking Point
+Path to Ozoth's Spire,FALSE,,Territory,Item,00 01 01 2c,,,81,"The Thanos Depository, The Breaking Point"
+Inhospitable Mountain,FALSE,,Territory,Item,00 01 01 2d,,,81,The Thanos Depository
 Bandit Cave,FALSE,,Territory,Item,00 01 01 2e,,,#N/A,#N/A
 Cascading Basins,FALSE,,Territory,Item,00 01 01 2f,,,#N/A,#N/A
 Cyclospordial Hazard,FALSE,,Territory,Item,00 01 01 30,,,#N/A,#N/A
@@ -410,20 +338,20 @@ Entrance to Thesead,FALSE,,Territory,Item,00 01 01 4f,,,#N/A,#N/A
 Displaced Housing,FALSE,,Territory,Item,00 01 01 50,,,#N/A,#N/A
 Cherry Blossom Grove,FALSE,,Territory,Item,00 01 01 51,,,#N/A,#N/A
 Entrance to Molten Heights,FALSE,,Territory,Item,00 01 01 52,,,#N/A,#N/A
-Freezing Heights,FALSE,,Territory,Item,00 01 01 54,,,92,"Slay Frosted Guards & Gryostone Golems, Slay Ifrits"
-Lava Lakes,FALSE,,Territory,Item,00 01 01 55,,,91,Slay Magma Entities
+Freezing Heights,FALSE,,Territory,Item,00 01 01 54,,,91,"Dwarves and Doguns Part I, Dwarves and Doguns Part III, The Breaking Point, Slay Frosted Guards & Gryostone Golems, Slay Ifrits"
+Lava Lakes,FALSE,,Territory,Item,00 01 01 55,,,91,"Dwarves and Doguns Part I, Dwarves and Doguns Part II, Dwarves and Doguns Part IV, Slay Magma Entities"
 Dragonbone Graveyard,FALSE,,Territory,Item,00 01 01 56,,,#N/A,#N/A
 Entamis Village,FALSE,,Territory,Item,00 01 01 57,,,65,"Temple Entrance, The Heartwood, Basalt Basin, Slay Idols"
 Fountain of Youth,FALSE,,Territory,Item,00 01 01 58,,,60,"Subterranean Mine, Bird Sanctuary, Fallen Salient"
 Delnar Manor,FALSE,,Territory,Item,00 01 01 59,,,#N/A,#N/A
 Corkus City Crossroads,FALSE,,Territory,Item,00 01 01 5a,,,#N/A,#N/A
-Road to Mine,FALSE,,Territory,Item,00 01 01 5b,,,#N/A,#N/A
-Industrial Clearing,FALSE,,Territory,Item,00 01 01 5c,,,85,Slay Robots
+Road to Mine,FALSE,,Territory,Item,00 01 01 5b,,,89,The Envoy Part II
+Industrial Clearing,FALSE,,Territory,Item,00 01 01 5c,,,85,"The Envoy Part II, Slay Robots"
 Corkus Forest,FALSE,,Territory,Item,00 01 01 5d,,,#N/A,#N/A
 Picnic Pond,FALSE,,Territory,Item,00 01 01 5e,,,#N/A,#N/A
-Avos Territory,FALSE,,Territory,Item,00 01 01 5f,,,#N/A,#N/A
-Overrun Docks,FALSE,,Territory,Item,00 01 01 60,,,#N/A,#N/A
-Retrofitted Manufactory,FALSE,,Territory,Item,00 01 01 61,,,#N/A,#N/A
+Avos Territory,FALSE,,Territory,Item,00 01 01 5f,,,83,"The Envoy Part I, The Envoy Part II"
+Overrun Docks,FALSE,,Territory,Item,00 01 01 60,,,83,The Envoy Part I
+Retrofitted Manufactory,FALSE,,Territory,Item,00 01 01 61,,,97,The Breaking Point
 Founder's Statue,FALSE,,Territory,Item,00 01 01 62,,,#N/A,#N/A
 Path to Ahmsord,FALSE,,Territory,Item,00 01 01 63,,,#N/A,#N/A
 Aerial Descent,FALSE,,Territory,Item,00 01 01 64,,,#N/A,#N/A
@@ -434,37 +362,221 @@ Felroc Fields,FALSE,,Territory,Item,00 01 01 68,,,#N/A,#N/A
 Balloon Airbase,FALSE,,Territory,Item,00 01 01 69,,,90,Slay Pernix Monkeys
 Broken Road,FALSE,,Territory,Item,00 01 01 6a,,,#N/A,#N/A
 Otherworldly Monolith,FALSE,,Territory,Item,00 01 01 6b,,,#N/A,#N/A
+Monte's Village,TRUE,50,Territory,Item,00 01 01 6c,"Apprentice Huts, Jungle Entrance",,52,"Corrupted Betrayal, Thunder Grub Nest, Jungle Horrors, Rotten Altar"
+Volcanic Isles,TRUE,39,Territory,Item,00 01 01 6d,"Volcanic Excavation, Light Peninsula, Tree Island, Lost Atoll, Pirate Town",,58,Volcanus Pit
 Troll's Challenge,FALSE,,Territory,Item,00 01 01 6e,,,#N/A,#N/A
 Harpy's Haunt South,FALSE,,Territory,Item,00 01 01 6f,,,#N/A,#N/A
 Hobgoblin's Hoard,FALSE,,Territory,Item,00 01 01 70,,,#N/A,#N/A
-Pyroclastic Flow,FALSE,,Territory,Item,00 01 01 71,,,#N/A,#N/A
+Pyroclastic Flow,FALSE,,Territory,Item,00 01 01 71,,,91,Dwarves and Doguns Part I
 Ava's Workshop,FALSE,,Territory,Item,00 01 01 72,,,#N/A,#N/A
 Wellspring of Eternity,FALSE,,Territory,Item,00 01 01 73,,,104,Ancient Arthropods
-Fort Torann,FALSE,,Territory,Item,00 01 01 74,,,#N/A,#N/A
+Fort Torann,FALSE,,Territory,Item,00 01 01 74,,,104,A Journey Home
 Xima Valley,FALSE,,Territory,Item,00 01 01 75,,,#N/A,#N/A
-The Frog Bog,FALSE,,Territory,Item,00 01 01 76,,,104,"Ancient Arthropods, Siltswimmer Den"
-Forts in Fall,FALSE,,Territory,Item,00 01 01 77,,,104,"Electrifying Outpost, Undersupply"
+The Frog Bog,FALSE,,Territory,Item,00 01 01 76,,,104,"A New Beginning, Ancient Arthropods, Siltswimmer Den"
+Forts in Fall,FALSE,,Territory,Item,00 01 01 77,,,104,"A New Beginning, Undersupply, Electrifying Outpost"
 Royal Dam,FALSE,,Territory,Item,00 01 01 78,,,107,"Undersupply, Ensemble of Hope"
-Festival Grounds,FALSE,,Territory,Item,00 01 01 79,,,#N/A,#N/A
-The Lumbermill,FALSE,,Territory,Item,00 01 01 7a,,,107,"Auburn Lumbermill, The Scarred Springs"
-Residence Sector,FALSE,,Territory,Item,00 01 01 7b,,,110,"Abandoned Steelworks, The Missing Piece"
-Agricultural Sector,FALSE,,Territory,Item,00 01 01 7c,,,109,"Water Tower, Through the Pipes, The Missing Piece"
-Water Processing Sector,FALSE,,Territory,Item,00 01 01 7d,,,111,Weapons Factory
-Industrial Sector,FALSE,,Territory,Item,00 01 01 7e,,,111,Slay Hedoro
+Festival Grounds,FALSE,,Territory,Item,00 01 01 79,,,105,"A New Beginning, The Cursed One, Revelations in Fall"
+The Lumbermill,FALSE,,Territory,Item,00 01 01 7a,,,107,"The Scarred Springs, Auburn Lumbermill"
+Residence Sector,FALSE,,Territory,Item,00 01 01 7b,,,110,"The Missing Piece, Abandoned Steelworks"
+Agricultural Sector,FALSE,,Territory,Item,00 01 01 7c,,,108,"Revelations in Fall, Through the Pipes, The Missing Piece, Water Tower"
+Water Processing Sector,FALSE,,Territory,Item,00 01 01 7d,,,109,"Solidarity of Steel, The Price of Ingenuity, Echoes of Change, Weapons Factory"
+Industrial Sector,FALSE,,Territory,Item,00 01 01 7e,,,109,"Solidarity of Steel, The Price of Ingenuity, Echoes of Change, Slay Hedoro"
 Highlands Gate,FALSE,,Territory,Item,00 01 01 7f,,,117,Estalis Gallery
 Alder Understory,FALSE,,Territory,Item,00 01 01 80,,,#N/A,#N/A
-Verdant Grove,FALSE,,Territory,Item,00 01 01 81,,,#N/A,#N/A
-Fort Hegea,FALSE,,Territory,Item,00 01 01 82,,,114,Entozoon Takeover
-Deforested Ecotone,FALSE,,Territory,Item,00 01 01 83,,,113,"Nesting Place, Ensemble of Hope"
-Citadel's Shadow,FALSE,,Territory,Item,00 01 01 84,,,117,"Krisa Manor, Liftal Castle, Hunt Wolly Rhinos, Ensemble of Hope"
+Verdant Grove,FALSE,,Territory,Item,00 01 01 81,,,114,Burning Bonds
+Fort Hegea,FALSE,,Territory,Item,00 01 01 82,,,114,"Burning Bonds, Entozoon Takeover"
+Deforested Ecotone,FALSE,,Territory,Item,00 01 01 83,,,112,"Echoes of Change, Shrouded in Mist, Burning Bonds, Ensemble of Hope, Nesting Place"
+Citadel's Shadow,FALSE,,Territory,Item,00 01 01 84,,,117,"Ensemble of Hope, Krisa Manor, Liftal Castle, Hunt Wolly Rhinos"
 Lake Gitephe,FALSE,,Territory,Item,00 01 01 85,,,107,"Undersupply, Overture to Despair, Apotheosis"
-Fort Tericen,FALSE,,Territory,Item,00 01 01 86,,,116,"Tericen Stables, Krisa Manor, The Strong Survive"
+Fort Tericen,FALSE,,Territory,Item,00 01 01 86,,,116,"The Strong Survive, Tericen Stables, Krisa Manor"
 Lake Rieke,FALSE,,Territory,Item,00 01 01 87,,,#N/A,#N/A
 Frosty Outpost,FALSE,,Territory,Item,00 01 01 88,,,119,"Glacier Tunnels, Northern Outpost"
-Feuding Houses,FALSE,,Territory,Item,00 01 01 89,,,116,"Tericen Stables, Overture to Despair"
-Royal Barracks,FALSE,,Territory,Item,00 01 01 8a,,,108,"The Barracks, The Scarred Springs, The Missing Piece, Apotheosis"
+Feuding Houses,FALSE,,Territory,Item,00 01 01 89,,,116,"Overture to Despair, Tericen Stables"
+Royal Barracks,FALSE,,Territory,Item,00 01 01 8a,,,108,"The Scarred Springs, The Missing Piece, Apotheosis, The Barracks"
 Gates to Aelumia,FALSE,,Territory,Item,00 01 01 8b,,,118,"Ensemble of Hope, Apotheosis"
-University Campus,FALSE,,Territory,Item,00 01 01 8c,,,111,"Theatre Royal, The Missing Piece"
+University Campus,FALSE,,Territory,Item,00 01 01 8c,,,111,"The Missing Piece, Echoes of Change, Theatre Royal"
+Progressive Unique Gear,FALSE,,Special,Item,00 02 01 00,,,,
+Gear: 1-5 Unique,FALSE,1,Special,Item,00 02 01 01,,,,
+Progressive Epic Gear,FALSE,,Special,Item,00 02 02 00,,,,
+Gear: 1-5 Epic,FALSE,1,Special,Item,00 02 02 01,,,,
+Progressive Legendary+ Gear,FALSE,,Special,Item,00 02 03 00,,,,
+Gear: 1-5 Legendary+,FALSE,1,Special,Item,00 02 03 01,,,,
+Progressive Unique Armor,FALSE,,Special,Item,00 02 11 00,,,,
+Armor: 1-5 Unique,FALSE,1,Special,Item,00 02 11 01,,,,
+Progressive Epic Armor,FALSE,,Special,Item,00 02 12 00,,,,
+Armor: 1-5 Epic,FALSE,1,Special,Item,00 02 12 01,,,,
+Progressive Legendary+ Armor,FALSE,,Special,Item,00 02 13 00,,,,
+Armor: 1-5 Legendary+,FALSE,1,Special,Item,00 02 13 01,,,,
+Progressive Unique Weapons,FALSE,,Special,Item,00 02 21 00,,,,
+Weapons: 1-5 Unique,FALSE,1,Special,Item,00 02 21 01,,,,
+Progressive Epic Weapons,FALSE,,Special,Item,00 02 22 00,,,,
+Weapons: 1-5 Epic,FALSE,1,Special,Item,00 02 22 01,,,,
+Progressive Legendary+ Weapons,FALSE,,Special,Item,00 02 23 00,,,,
+Weapons: 1-5 Legendary+,FALSE,1,Special,Item,00 02 23 01,,,,
+Progressive Unique Accessories,FALSE,,Special,Item,00 02 31 00,,,,
+Accessories: 1-5 Unique,FALSE,1,Special,Item,00 02 31 01,,,,
+Progressive Epic Accessories,FALSE,,Special,Item,00 02 32 00,,,,
+Accessories: 1-5 Epic,FALSE,1,Special,Item,00 02 32 01,,,,
+Progressive Legendary+ Accessories,FALSE,,Special,Item,00 02 33 00,,,,
+Accessories: 1-5 Legendary+,FALSE,1,Special,Item,00 02 33 01,,,,
+King's Recruit,TRUE,1,Quest,Location,00 11 00 01,Ragni,,,
+Enzan's Brother,TRUE,1,Quest,Location,00 11 00 02,Emerald Trail,,,
+Poisoning the Pest,TRUE,2,Quest,Location,00 11 00 03,"Ragni, Ragni Main Entrance",,,
+Cook Assistant,TRUE,3,Quest,Location,00 11 00 04,"Katoa Ranch, Ragni North Entrance",,,
+Infested Plants,TRUE,4,Quest,Location,00 11 00 05,"Entrance to Nivla Woods, Road to Time Valley, Alekin",,,
+The Sewers of Ragni,TRUE,5,Quest,Location,00 11 00 06,Katoa Ranch,,,
+Mushroom Man,TRUE,6,Quest,Location,00 11 00 07,"Alekin, Arachnid Woods, Detlas",Infested Plants,,
+Tunnel Trouble,TRUE,6,Quest,Location,00 11 00 08,"Detlas Suburbs, Katoa Ranch, Corrupted Orchard, Scorched Trail, Corrupted Tower",,,
+Taking the Tower,TRUE,8,Quest,Location,00 11 00 09,"Detlas, Corrupted Orchard, Corrupted Tower",Mushroom Man,,
+Underwater,TRUE,9,Quest,Location,00 11 00 0a,Maltic Coast,,,
+Maltic's Well,TRUE,10,Quest,Location,00 11 00 0b,Maltic,,,
+Elemental Exercise,TRUE,11,Quest,Location,00 11 00 0c,"Detlas, Scorched Trail",Mushroom Man,,
+Potion Making,TRUE,12,Quest,Location,00 11 00 0d,"Detlas, Essren's Hut, Nivla Woods",,,
+Stable Story,TRUE,13,Quest,Location,00 11 00 0e,"Essren's Hut, Ternaves, *Owl Tribe",,,
+Arachnids' Ascent,TRUE,14,Quest,Location,00 11 00 0f,"Detlas, Lava Springs, Arachnid Woods, Webbed Fracture","Taking the Tower, Elemental Exercise",,
+Supply and Delivery,TRUE,16,Quest,Location,00 11 00 10,"Detlas, Alekin",Mushroom Man,,
+Lava Springs,TRUE,18,Quest,Location,00 11 00 11,Lava Springs,,,
+Pit of the Dead,TRUE,20,Quest,Location,00 11 00 12,Nemract,,,
+Grave Digger,TRUE,20,Quest,Location,00 11 00 13,"Detlas, Nemract, Nemract Cathedral",,,
+The Dark Descent,TRUE,21,Quest,Location,00 11 00 14,Ancient Nemract,,,
+Dwelling Walls,TRUE,22,Quest,Location,00 11 00 15,Nemract,,,
+Cluck Cluck,TRUE,23,Quest,Location,00 11 00 16,Rooster Island,,,
+Lost Tower,TRUE,24,Quest,Location,00 11 00 17,"Nemract, Ancient Nemract",,,
+Recover the Past,TRUE,25,Quest,Location,00 11 00 18,"Corrupted River, Elkurn, Corrupted Road",,,
+Tempo Town Trouble,TRUE,25,Quest,Location,00 11 00 19,"Nemract, Tempo Town, Time Valley",,,
+Creeper Infiltration,TRUE,25,Quest,Location,00 11 00 1a,"Tempo Town, Ragni South Entrance, Sulphuric Hollow, Pigmen Ravines",,,
+Deja Vu,TRUE,27,Quest,Location,00 11 00 1b,Time Valley,,,
+The Corrupted Village,TRUE,28,Quest,Location,00 11 00 1c,"Desolate Valley, Nesaak Transition",,,
+Misadventure on the Sea,TRUE,28,Quest,Location,00 11 00 1d,"Nemract, Selchar",,,
+The Mercenary,TRUE,30,Quest,Location,00 11 00 1e,"Almuj, Detlas, Barren Sands, Invaded Barracks",,,
+Green Gloop,TRUE,31,Quest,Location,00 11 00 1f,"Gloopy Cave, Almuj, Ruined Villa",,,
+A Sandy Scandal,TRUE,32,Quest,Location,00 11 00 20,"Almuj, Cascading Oasis",,,
+Meaningful Holiday,TRUE,33,Quest,Location,00 11 00 21,"Almuj, Almuj Slums, Ternaves",,,
+Kingdom of Sand,TRUE,33,Quest,Location,00 11 00 22,"Accursed Dunes, Eagle Tribe, Ruined Prospect, Ruined Villa",,,
+Canyon Condor,TRUE,34,Quest,Location,00 11 00 23,"Rymek, Owl Tribe, Ancient Excavation",,,
+WynnExcavation Site A,TRUE,35,Quest,Location,00 11 00 24,"Ancient Excavation, Eagle Tribe",,,
+Tribal Aggression,TRUE,35,Quest,Location,00 11 00 25,"Owl Tribe, Eagle Tribe",,,
+Wrath of the Mummy,TRUE,36,Quest,Location,00 11 00 26,"Almuj Slums, Almuj, Mummy's Tomb, Rymek",,,
+Pirate's Trove,TRUE,39,Quest,Location,00 11 00 27,"Entrance to Gavel, Llevigar",,,
+Clearing the Camps,TRUE,39,Quest,Location,00 11 00 28,"Llevigar Gate, Cliffhearth Orc Camp, Trunkstump Goblin Camp, Orc Road",,,
+Ice Nations,TRUE,40,Quest,Location,00 11 00 29,"Nodguj Nation, Dujgon Nation",,,
+Tower of Ascension,FALSE,75,Quest,Location,00 11 00 2a,Tower of Ascension,,,
+Heart of Llevigar,TRUE,41,Quest,Location,00 11 00 2b,Llevigar,,,
+Star Thief,TRUE,42,Quest,Location,00 11 00 2c,"Stonecave Orc Camp, Trunkstump Goblin Camp, Meteor Trail, Orc Lake, Orc Road",,,
+Underice,TRUE,43,Quest,Location,00 11 00 2d,"Nesaak, Wolves' Den, Frigid Crossroads",Underwater,,
+Fate of the Fallen,TRUE,43,Quest,Location,00 11 00 2e,"Wolves' Den, Nesaak, Abandoned Lumberyard",,,
+Blazing Retribution,TRUE,44,Quest,Location,00 11 00 2f,"Orc Lake, Loamsprout Orc Camp, Sablestone Orc Camp",,,
+Bob's Lost Soul,TRUE,45,Quest,Location,00 11 00 30,"Frigid Crossroads, Bob's Tomb, Savannah Plains, Florist's Hut, Black Road, Frozen Homestead, Abandoned Lumberyard",,,
+WynnExcavation Site B,TRUE,46,Quest,Location,00 11 00 31,Twain Lake,WynnExcavation Site A,,
+Frost Bite,TRUE,48,Quest,Location,00 11 00 32,Icy Descent,,,
+The House of Twain,TRUE,49,Quest,Location,00 11 00 33,"Twain Lake, Twain Mansion",,,
+An Iron Heart Part I,TRUE,49,Quest,Location,00 11 00 34,"Goblin Plains West, Iron Road, Meteor Crater, Sunspark Orc Camp",,,
+Rise of the Quartron,TRUE,49,Quest,Location,00 11 00 35,"Karoc Quarry, Harnort Compound, Shineridge Orc Camp",,,
+A Grave Mistake,TRUE,50,Quest,Location,00 11 00 36,Twain Mansion,The House of Twain,,
+The Maiden Tower,TRUE,51,Quest,Location,00 11 00 37,"Ogre Den, Maiden Tower, Olux",,,
+Crop Failure,TRUE,52,Quest,Location,00 11 00 38,Olux,,,
+Corrupted Betrayal,TRUE,52,Quest,Location,00 11 00 39,"Troms Lake, Apprentice Huts, Monte's Village, Iboju Village, Troms, Temple of Legends",,,
+Jungle Fever,TRUE,52,Quest,Location,00 11 00 3a,"Iboju Village, Almuj, Detlas",,,
+Death Whistle,TRUE,53,Quest,Location,00 11 00 3b,"Infested Sinkhole, Floral Peaks, Maiden Tower, Witching Road",,,
+Master Piece,TRUE,53,Quest,Location,00 11 00 3c,"Swamp Mountain Arch, Sunspark Orc Camp, Meteor Crater, Lizardman Camp, Bloody Trail",,,
+The Worm Holes,TRUE,54,Quest,Location,00 11 00 3d,"Path to the Grootslangs, Infested Sinkhole, Forgotten Burrows, Witching Road",,,
+The Shadow of the Beast,FALSE,54,Quest,Location,00 11 00 3e,"Bloody Trail, Entrance to Olux, Lizardman Lake, Fading Forest, Olux",,,
+Zhight Island,TRUE,55,Quest,Location,00 11 00 3f,"Zhight Island, Mage Island",Ice Nations,,
+WynnExcavation Site C,TRUE,55,Quest,Location,00 11 00 40,Volcanic Excavation,WynnExcavation Site B,,
+The Passage,TRUE,57,Quest,Location,00 11 00 41,"Troms, Iboju Village",,,
+An Iron Heart Part II,TRUE,58,Quest,Location,00 11 00 42,"Olux, Secluded Workshop",An Iron Heart Part I,,
+The Order of the Grook,TRUE,59,Quest,Location,00 11 00 43,Mage Island,,,
+Beneath the Depths,FALSE,60,Quest,Location,00 11 00 44,"Pirate Town, Mage Island",,,
+Reclaiming the House,FALSE,61,Quest,Location,00 11 00 45,"Overtaken Outpost, Mangled Lake, Bloody Trail",,,
+Redbeard's Booty,FALSE,61,Quest,Location,00 11 00 46,,,,
+Lost in the Jungle,FALSE,62,Quest,Location,00 11 00 47,,,,
+Taproot,FALSE,62,Quest,Location,00 11 00 48,Fading Forest,The Worm Holes,,
+Out of my Mind,FALSE,63,Quest,Location,00 11 00 49,,,,
+A Headless History,FALSE,64,Quest,Location,00 11 00 4a,"Gelibord Watermill, Castle Dullahan",Taproot,,
+All Roads To Peace,FALSE,64,Quest,Location,00 11 00 4b,,"Clearing the Camps, Blazing Retribution, Reclaiming the House",,
+Lost Royalty,FALSE,65,Quest,Location,00 11 00 4c,,,,
+Lost Soles,FALSE,66,Quest,Location,00 11 00 4d,,Beneath the Depths,,
+Memory Paranoia,FALSE,67,Quest,Location,00 11 00 4e,Caritat Mansion,,,
+From the Mountains,FALSE,67,Quest,Location,00 11 00 4f,,,,
+Temple of the Legends,FALSE,68,Quest,Location,00 11 00 50,,"Ice Nations, Creeper Infiltration",,
+Grand Youth,FALSE,69,Quest,Location,00 11 00 51,,,,
+Lazarus Pit,FALSE,69,Quest,Location,00 11 00 52,"Gelibord, Castle Dullahan, Twisted Ridge",,,
+Haven Antiquity,FALSE,70,Quest,Location,00 11 00 53,"Dreary Docks, Derelict Mansion, Disturbed Crypt, Lifeless Forest",,,
+WynnExcavation Site D,FALSE,70,Quest,Location,00 11 00 54,,WynnExcavation Site C,,
+Shattered Minds,FALSE,70,Quest,Location,00 11 00 55,,,,
+Finding the Light,FALSE,71,Quest,Location,00 11 00 56,,A Headless History,,
+Forbidden Prison,FALSE,72,Quest,Location,00 11 00 57,"Gelibord, Lexdale Penitentiary",,,
+Lexdale Witch Trials,FALSE,72,Quest,Location,00 11 00 58,"Lexdale, Decayed Basin, Heart of Decay, Old Crossroads",,,
+Murder Mystery,FALSE,73,Quest,Location,00 11 00 59,,,,
+Troubled Tribesmen,FALSE,73,Quest,Location,00 11 00 5a,,,,
+Hollow Serenity,FALSE,73,Quest,Location,00 11 00 5b,,,,
+Aldorei's Secret Part I,FALSE,74,Quest,Location,00 11 00 5c,,,,
+Acquiring Credentials,FALSE,74,Quest,Location,00 11 00 5d,,,,
+Reincarnation,FALSE,74,Quest,Location,00 11 00 5e,"Skien's Island, Maro Peaks, Bob's Tomb","Cluck Cluck, Ice Nations, Bob's Lost Soul",,
+The Ultimate Weapon,FALSE,75,Quest,Location,00 11 00 5f,,,,
+Flight in Distress,FALSE,75,Quest,Location,00 11 00 60,,Acquiring Credentials,,
+The Bigger Picture,FALSE,76,Quest,Location,00 11 00 61,,,,
+Purple and Blue,FALSE,77,Quest,Location,00 11 00 62,,,,
+Hunger of the Gerts Part I,FALSE,77,Quest,Location,00 11 00 63,"Gylia Watchtower, Jitak's Farm, Mushroom Hill, Gert Camp",,,
+Aldorei's Secret Part II,FALSE,78,Quest,Location,00 11 00 64,,Aldorei's Secret Part I,,
+Hunger of the Gerts Part II,FALSE,78,Quest,Location,00 11 00 65,"Gylia Watchtower, Gert Camp",Hunger of the Gerts Part I,,
+Fallen Delivery,FALSE,79,Quest,Location,00 11 00 66,,,,
+The Realm of Light,FALSE,79,Quest,Location,00 11 00 67,,Finding the Light,,
+The Qira Hive,FALSE,80,Quest,Location,00 11 00 68,The Hive,,,
+???,FALSE,80,Quest,Location,00 11 00 69,,,,
+General's Orders,FALSE,80,Quest,Location,00 11 00 6a,,,,
+From the Bottom,FALSE,81,Quest,Location,00 11 00 6b,Thanos,,,
+The Thanos Depository,FALSE,81,Quest,Location,00 11 00 6c,"Thanos, Path to Ozoth's Spire, Inhospitable Mountain",,,
+A Marauder's Dues,FALSE,83,Quest,Location,00 11 00 6d,,,,
+The Envoy Part I,FALSE,83,Quest,Location,00 11 00 6e,"Selchar, Corkus Castle, Corkus City, Avos Territory, Overrun Docks",,,
+The Canyon Guides,FALSE,84,Quest,Location,00 11 00 6f,,,,
+The Lost,FALSE,85,Quest,Location,00 11 00 70,,,,
+The Canary Calls,FALSE,85,Quest,Location,00 11 00 71,,,,
+Desperate Metal,FALSE,86,Quest,Location,00 11 00 72,,,,
+Cowfusion,FALSE,86,Quest,Location,00 11 00 73,,,,
+Beyond the Grave,FALSE,87,Quest,Location,00 11 00 74,,,,
+Mixed Feelings,FALSE,87,Quest,Location,00 11 00 75,,,,
+The Hidden City,FALSE,88,Quest,Location,00 11 00 76,,,,
+The Envoy Part II,FALSE,89,Quest,Location,00 11 00 77,"Corkus City, Avos Territory, Avos Temple, Corkus Castle, Road to Mine, Corkus Sea Cove, Relos, Industrial Clearing",The Envoy Part I,,
+Enter the Dojo,FALSE,89,Quest,Location,00 11 00 78,,,,
+Fantastic Voyage,FALSE,90,Quest,Location,00 11 00 79,,,,
+Dwarves and Doguns Part I,FALSE,91,Quest,Location,00 11 00 7a,"Rodoroc, Dogun Ritual Site, Freezing Heights, Pyroclastic Flow, Lava Lakes",,,
+The Feathers Fly Part I,FALSE,91,Quest,Location,00 11 00 7b,,The Envoy Part II,,
+Dwarves and Doguns Part II,FALSE,92,Quest,Location,00 11 00 7c,"Lava Lakes, Crater Descent, Rodoroc",Dwarves and Doguns Part I,,
+Dwarves and Doguns Part III,FALSE,93,Quest,Location,00 11 00 7d,"Freezing Heights, Dogun Ritual Site",Dwarves and Doguns Part II,,
+The Feathers Fly Part II,FALSE,93,Quest,Location,00 11 00 7e,,The Feathers Fly Part I,,
+Dwarves and Doguns Part IV,FALSE,94,Quest,Location,00 11 00 7f,"Dogun Ritual Site, Rodoroc, Crater Descent, Lava Lakes",Dwarves and Doguns Part III,,
+One Thousand Meters Under,FALSE,95,Quest,Location,00 11 00 80,,,,
+Recipe For Disaster,FALSE,96,Quest,Location,00 11 00 81,,,,
+The Breaking Point,FALSE,97,Quest,Location,00 11 00 82,"Kandon-Beda, Retrofitted Manufactory, Dogun Ritual Site, Freezing Heights, Crater Descent, Rodoroc, Upper Thanos, Thanos Exit, Molten Passage, Path to Ozoth's Spire, Thanos","The Envoy Part II, Dwarves and Doguns Part IV, The Thanos Depository",,
+Royal Trials,FALSE,98,Quest,Location,00 11 00 83,,,,
+The Hero of Gavel,FALSE,99,Quest,Location,00 11 00 84,,,,
+The Olmic Rune,FALSE,100,Quest,Location,00 11 00 85,,,,
+A Journey Beyond,FALSE,100,Quest,Location,00 11 00 86,,,,
+A Journey Further,FALSE,101,Quest,Location,00 11 00 87,,A Journey Beyond,,
+Point of No Return,FALSE,102,Quest,Location,00 11 00 88,Lutho,,,
+Queen's Recruit,FALSE,103,Quest,Location,00 11 00 89,,"Recover the Past, The Realm of Light, A Journey Further",,
+A Hunter's Calling,FALSE,103,Quest,Location,00 11 00 8a,,"Eldrich Outlook, An Iron Heart Part II, Dwarves and Doguns Part II",,
+A Journey Home,FALSE,104,Quest,Location,00 11 00 8b,"Ragni, Fort Torann, Royal Gate",Queen's Recruit,,
+A New Beginning,FALSE,105,Quest,Location,00 11 00 8c,"Espren, Forts in Fall, Festival Grounds, The Frog Bog",A Journey Home,,
+The Cursed One,FALSE,106,Quest,Location,00 11 00 8d,"Festival Grounds, Espren",A New Beginning,,
+Undersupply,FALSE,107,Quest,Location,00 11 00 8e,"Royal Dam, Forts in Fall, Lake Gitephe",A Journey Home,,
+The Scarred Springs,FALSE,108,Quest,Location,00 11 00 8f,"Royal Barracks, The Lumbermill, Espren",A Journey Home,,
+Revelations in Fall,FALSE,108,Quest,Location,00 11 00 90,"Festival Grounds, Espren, Agricultural Sector",The Cursed One,,
+Solidarity of Steel,FALSE,109,Quest,Location,00 11 00 91,"Industrial Sector, Timasca, Water Processing Sector",Revelations in Fall,,
+Off the Rails,FALSE,109,Quest,Location,00 11 00 92,,Revelations in Fall,,
+The Price of Ingenuity,FALSE,110,Quest,Location,00 11 00 93,"Industrial Sector, Timasca, Water Processing Sector",Solidarity of Steel,,
+Through the Pipes,FALSE,110,Quest,Location,00 11 00 94,"Timasca, Agricultural Sector",Revelations in Fall,,
+The Missing Piece,FALSE,111,Quest,Location,00 11 00 95,"Espren, Agricultural Sector, Residence Sector, University Campus, Royal Barracks",Revelations in Fall,,
+Echoes of Change,FALSE,112,Quest,Location,00 11 00 96,"Industrial Sector, Timasca, Water Processing Sector, University Campus, Deforested Ecotone",The Price of Ingenuity,,
+Shrouded in Mist,FALSE,113,Quest,Location,00 11 00 97,"Deforested Ecotone, Aldwell",Echoes of Change,,
+Burning Bonds,FALSE,114,Quest,Location,00 11 00 98,"Verdant Grove, Deforested Ecotone, Fort Hegea",Revelations in Fall,,
+True Colours,FALSE,115,Quest,Location,00 11 00 99,,Shrouded in Mist,,
+Celebrations in Smoke,FALSE,115,Quest,Location,00 11 00 9a,,Revelations in Fall,,
+Overture to Despair,FALSE,116,Quest,Location,00 11 00 9b,"Hyloch, Feuding Houses, Lake Gitephe",True Colours,,
+The Strong Survive,FALSE,117,Quest,Location,00 11 00 9c,"Hyloch, Fort Tericen",Revelations in Fall,,
+Ensemble of Hope,FALSE,118,Quest,Location,00 11 00 9d,"Hyloch, Citadel's Shadow, Royal Dam, Deforested Ecotone, Gates to Aelumia, Contested District",Overture to Despair,,
+Apotheosis,FALSE,119,Quest,Location,00 11 00 9e,"Hyloch, Lake Gitephe, Contested District, Gates to Aelumia, Royal Barracks",Ensemble of Hope,,
 Pigman Barbeque,TRUE,1,Cave,Location,00 12 00 01,Emerald Trail,,,
 Ancestor Grotto,TRUE,2,Cave,Location,00 12 00 02,"Coastal Trail, Ragni Countryside North",,,
 Tidepool Terrace,TRUE,4,Cave,Location,00 12 00 03,Maltic Coast,,,
@@ -484,7 +596,7 @@ Winery Infestation,TRUE,11,Cave,Location,00 12 00 10,Corrupted Warfront,,,
 Hill Hovel,TRUE,11,Cave,Location,00 12 00 11,Corrupted Orchard,,,
 Spore Spiral,TRUE,12,Cave,Location,00 12 00 12,Black Road,,,
 Willow Crypt,TRUE,16,Cave,Location,00 12 00 13,Scorched Trail,,,
-Mossy Grotto,TRUE,16,Cave,Location,00 12 00 14,Road to Time Valley,,,
+Mossy Grotto,TRUE,16,Cave,Location,00 12 00 14,"Road to Time Valley, *Abandoned Farm",,,
 Cave Springs,TRUE,17,Cave,Location,00 12 00 15,Scorched Trail,,,
 Sunken Ship,TRUE,18,Cave,Location,00 12 00 16,Nemract,,,
 Pirate Hold,TRUE,18,Cave,Location,00 12 00 17,Cathedral Harbour,,,
@@ -662,6 +774,7 @@ The Barracks,FALSE,119,Cave,Location,00 12 00 c2,Royal Barracks,,,
 Aelumia Metalmill,FALSE,119,Cave,Location,00 12 00 c3,Contested District,,,
 Northern Outpost,FALSE,120,Cave,Location,00 12 00 c4,Frosty Outpost,,,
 Aelumia Chemical Plant,FALSE,120,Cave,Location,00 12 00 c5,Contested District,,,
+Dead Man's Dugout,TRUE,25,Cave,Location,00 12 00 c6,Half Moon Island,,,
 Decrepit Sewers,TRUE,8,Dungeon,Location,00 13 00 01,Katoa Ranch,,,
 Infested Pit,TRUE,17,Dungeon,Location,00 13 00 02,Webbed Fracture,,,
 Underworld Crypt,TRUE,23,Dungeon,Location,00 13 00 03,Ancient Nemract,,,
@@ -680,6 +793,38 @@ Corrupted Ice Barrows,FALSE,90,Dungeon,Location,00 13 00 15,The Forgery,,,
 Corrupted Undergrowth Ruins,FALSE,94,Dungeon,Location,00 13 00 16,The Forgery,,,
 Corrupted Galleon's Graveyard,FALSE,98,Dungeon,Location,00 13 00 17,The Forgery,,,
 Eldrich Outlook,FALSE,101,Dungeon,Location,00 13 00 18,Final Step,,,
+Slay Spiders,TRUE,4,Mini-Quest,Location,00 14 00 01,Nivla Woods,,,
+Slay Mooshrooms,TRUE,15,Mini-Quest,Location,00 14 00 02,Essren's Hut,,,
+Slay Skeletons,TRUE,25,Mini-Quest,Location,00 14 00 03,Arachnid Woods,,,
+Slay Scarabs,TRUE,30,Mini-Quest,Location,00 14 00 04,Almuj,,,
+Slay Coyotes,TRUE,35,Mini-Quest,Location,00 14 00 05,Ruined Prospect,,,
+Slay Creatures of Nesaak Forest,TRUE,40,Mini-Quest,Location,00 14 00 06,Wolves' Den,,,
+Slay Orcs,TRUE,45,Mini-Quest,Location,00 14 00 07,Llevigar Gate,,,
+Slay Slimes,TRUE,50,Mini-Quest,Location,00 14 00 08,Jungle Entrance,,,
+Slay Lizardmen,TRUE,55,Mini-Quest,Location,00 14 00 09,Shady Shack,,,
+Slay Wraiths & Phantasms,FALSE,60,Mini-Quest,Location,00 14 00 0a,Fading Forest,,,
+Slay Idols,FALSE,65,Mini-Quest,Location,00 14 00 0b,Entamis Village,,,
+Slay Dead Villagers,FALSE,70,Mini-Quest,Location,00 14 00 0c,Dreary Docks,,,
+Slay Myconids,FALSE,73,Mini-Quest,Location,00 14 00 0d,Dodegar's Forge,,,
+Slay Weirds,FALSE,75,Mini-Quest,Location,00 14 00 0e,Entrance to Cinfras,,,
+Slay Felrocs,FALSE,78,Mini-Quest,Location,00 14 00 0f,Guild Hall,,,
+Slay Hobgoblins,FALSE,80,Mini-Quest,Location,00 14 00 10,Path to the Dojo,,,
+Slay Jinkos,FALSE,83,Mini-Quest,Location,00 14 00 11,Workshop Glade,,,
+Slay Robots,FALSE,85,Mini-Quest,Location,00 14 00 12,Industrial Clearing,,,
+Slay Ailuropodas,FALSE,88,Mini-Quest,Location,00 14 00 13,Panda Path,,,
+Slay Pernix Monkeys,FALSE,90,Mini-Quest,Location,00 14 00 14,Balloon Airbase,,,
+Slay Magma Entities,FALSE,91,Mini-Quest,Location,00 14 00 15,Lava Lakes,,,
+Slay Frosted Guards & Gryostone Golems,FALSE,92,Mini-Quest,Location,00 14 00 16,Freezing Heights,,,
+Slay Azers,FALSE,93,Mini-Quest,Location,00 14 00 17,Dogun Ritual Site,,,
+Slay Ifrits,FALSE,94,Mini-Quest,Location,00 14 00 18,Freezing Heights,,,
+Slay Astrochelys Manis,FALSE,95,Mini-Quest,Location,00 14 00 19,Corkus Outskirts,,,
+Slay Creatures of the Void,FALSE,96,Mini-Quest,Location,00 14 00 1a,Ahmsord,,,
+Slay Conures,FALSE,97,Mini-Quest,Location,00 14 00 1b,Ahmsord,,,
+Slay Angels,FALSE,98,Mini-Quest,Location,00 14 00 1c,Snail Island,,,
+Slay Dragonlings,FALSE,99,Mini-Quest,Location,00 14 00 1d,Sky Island Ascent,,,
+Slay Hedoro,FALSE,111,Mini-Quest,Location,00 14 00 1e,Industrial Sector,,,
+Hunt Banshee Stags,FALSE,112,Mini-Quest,Location,00 14 00 1f,Aldwell,,,
+Hunt Wolly Rhinos,FALSE,117,Mini-Quest,Location,00 14 00 20,Citadel's Shadow,,,
 Level Up: 2,TRUE,2,Level,Location,00 16 00 02,,,,
 Level Up: 3,TRUE,3,Level,Location,00 16 00 03,,,,
 Level Up: 4,TRUE,4,Level,Location,00 16 00 04,,,,
@@ -799,200 +944,56 @@ Level Up: 117,FALSE,117,Level,Location,00 16 00 75,,,,
 Level Up: 118,FALSE,118,Level,Location,00 16 00 76,,,,
 Level Up: 119,FALSE,119,Level,Location,00 16 00 77,,,,
 Level Up: 120,FALSE,120,Level,Location,00 16 00 78,,,,
-Slay Spiders,TRUE,4,Mini-Quest,Location,00 14 00 01,Nivla Woods,,,
-Slay Mooshrooms,TRUE,15,Mini-Quest,Location,00 14 00 02,Essren's Hut,,,
-Slay Skeletons,TRUE,25,Mini-Quest,Location,00 14 00 03,Arachnid Woods,,,
-Slay Scarabs,TRUE,30,Mini-Quest,Location,00 14 00 04,Almuj,,,
-Slay Coyotes,TRUE,35,Mini-Quest,Location,00 14 00 05,Ruined Prospect,,,
-Slay Creatures of Nesaak Forest,TRUE,40,Mini-Quest,Location,00 14 00 06,Wolves' Den,,,
-Slay Orcs,TRUE,45,Mini-Quest,Location,00 14 00 07,Llevigar Gate,,,
-Slay Slimes,TRUE,50,Mini-Quest,Location,00 14 00 08,Jungle Entrance,,,
-Slay Lizardmen,TRUE,55,Mini-Quest,Location,00 14 00 09,Shady Shack,,,
-Slay Wraiths & Phantasms,FALSE,60,Mini-Quest,Location,00 14 00 0a,Fading Forest,,,
-Slay Idols,FALSE,65,Mini-Quest,Location,00 14 00 0b,Entamis Village,,,
-Slay Dead Villagers,FALSE,70,Mini-Quest,Location,00 14 00 0c,Dreary Docks,,,
-Slay Myconids,FALSE,73,Mini-Quest,Location,00 14 00 0d,Dodegar's Forge,,,
-Slay Weirds,FALSE,75,Mini-Quest,Location,00 14 00 0e,Entrance to Cinfras,,,
-Slay Felrocs,FALSE,78,Mini-Quest,Location,00 14 00 0f,Guild Hall,,,
-Slay Hobgoblins,FALSE,80,Mini-Quest,Location,00 14 00 10,Path to the Dojo,,,
-Slay Jinkos,FALSE,83,Mini-Quest,Location,00 14 00 11,Workshop Glade,,,
-Slay Robots,FALSE,85,Mini-Quest,Location,00 14 00 12,Industrial Clearing,,,
-Slay Ailuropodas,FALSE,88,Mini-Quest,Location,00 14 00 13,Panda Path,,,
-Slay Pernix Monkeys,FALSE,90,Mini-Quest,Location,00 14 00 14,Balloon Airbase,,,
-Slay Magma Entities,FALSE,91,Mini-Quest,Location,00 14 00 15,Lava Lakes,,,
-Slay Frosted Guards & Gryostone Golems,FALSE,92,Mini-Quest,Location,00 14 00 16,Freezing Heights,,,
-Slay Azers,FALSE,93,Mini-Quest,Location,00 14 00 17,Dogun Ritual Site,,,
-Slay Ifrits,FALSE,94,Mini-Quest,Location,00 14 00 18,Freezing Heights,,,
-Slay Astrochelys Manis,FALSE,95,Mini-Quest,Location,00 14 00 19,Corkus Outskirts,,,
-Slay Creatures of the Void,FALSE,96,Mini-Quest,Location,00 14 00 1a,Ahmsord,,,
-Slay Conures,FALSE,97,Mini-Quest,Location,00 14 00 1b,Ahmsord,,,
-Slay Angels,FALSE,98,Mini-Quest,Location,00 14 00 1c,Snail Island,,,
-Slay Dragonlings,FALSE,99,Mini-Quest,Location,00 14 00 1d,Sky Island Ascent,,,
-Slay Hedoro,FALSE,111,Mini-Quest,Location,00 14 00 1e,Industrial Sector,,,
-Hunt Banshee Stags,FALSE,112,Mini-Quest,Location,00 14 00 1f,Aldwell,,,
-Hunt Wolly Rhinos,FALSE,117,Mini-Quest,Location,00 14 00 20,Citadel's Shadow,,,
-King's Recruit,TRUE,1,Quest,Location,00 11 00 01,Ragni,,,
-Enzan's Brother,TRUE,1,Quest,Location,00 11 00 02,Emerald Trail,,,
-Poisoning the Pest,TRUE,2,Quest,Location,00 11 00 03,"Ragni, Ragni Main Entrance",,,
-Cook Assistant,TRUE,3,Quest,Location,00 11 00 04,"Katoa Ranch, Ragni North Entrance",,,
-Infested Plants,TRUE,4,Quest,Location,00 11 00 05,"Entrance to Nivla Woods, Road to Time Valley, Alekin",,,
-The Sewers of Ragni,TRUE,5,Quest,Location,00 11 00 06,Katoa Ranch,,,
-Mushroom Man,TRUE,6,Quest,Location,00 11 00 07,"Alekin, Arachnid Woods, Detlas",Infested Plants,,
-Tunnel Trouble,TRUE,6,Quest,Location,00 11 00 08,"Detlas Suburbs, Katoa Ranch, Corrupted Orchard, Scorched Trail, Corrupted Tower",,,
-Taking the Tower,TRUE,8,Quest,Location,00 11 00 09,"Detlas, Corrupted Orchard, Corrupted Tower",Mushroom Man,,
-Underwater,TRUE,9,Quest,Location,00 11 00 0a,Maltic Coast,,,
-Maltic's Well,TRUE,10,Quest,Location,00 11 00 0b,Maltic,,,
-Elemental Exercise,TRUE,11,Quest,Location,00 11 00 0c,"Detlas, Scorched Trail",Mushroom Man,,
-Potion Making,TRUE,12,Quest,Location,00 11 00 0d,"Detlas, Essren's Hut, Nivla Woods",,,
-Stable Story,TRUE,13,Quest,Location,00 11 00 0e,"Essren's Hut, Ternaves, *Owl Tribe",,,
-Arachnids' Ascent,TRUE,14,Quest,Location,00 11 00 0f,"Detlas, Lava Springs, Arachnid Woods, Webbed Fracture","Taking the Tower, Elemental Exercise",,
-Supply and Delivery,TRUE,16,Quest,Location,00 11 00 10,"Detlas, Alekin",Mushroom Man,,
-Lava Springs,TRUE,18,Quest,Location,00 11 00 11,Lava Springs,,,
-Pit of the Dead,TRUE,20,Quest,Location,00 11 00 12,Nemract,,,
-Grave Digger,TRUE,20,Quest,Location,00 11 00 13,"Detlas, Nemract, Nemract Cathedral",,,
-The Dark Descent,TRUE,21,Quest,Location,00 11 00 14,Ancient Nemract,,,
-Dwelling Walls,TRUE,22,Quest,Location,00 11 00 15,Nemract,,,
-Cluck Cluck,TRUE,23,Quest,Location,00 11 00 16,Rooster Island,,,
-Lost Tower,TRUE,24,Quest,Location,00 11 00 17,"Nemract, Ancient Nemract",,,
-Recover the Past,TRUE,25,Quest,Location,00 11 00 18,"Corrupted River, Elkurn, Corrupted Road",,,
-Tempo Town Trouble,TRUE,25,Quest,Location,00 11 00 19,"Nemract, Tempo Town",,,
-Creeper Infiltration,TRUE,25,Quest,Location,00 11 00 1a,"Tempo Town, Ragni South Entrance, Sulphuric Hollow, Pigmen Ravines",,,
-Deja Vu,TRUE,27,Quest,Location,00 11 00 1b,Time Valley,,,
-The Corrupted Village,TRUE,28,Quest,Location,00 11 00 1c,"Desolate Valley, Nesaak Transition",,,
-Misadventure on the Sea,TRUE,28,Quest,Location,00 11 00 1d,"Nemract, Selchar",,,
-The Mercenary,TRUE,30,Quest,Location,00 11 00 1e,"Almuj, Detlas, Barren Sands, Invaded Barracks",,,
-Green Gloop,TRUE,31,Quest,Location,00 11 00 1f,"Gloopy Cave, Almuj",,,
-A Sandy Scandal,TRUE,32,Quest,Location,00 11 00 20,Almuj,,,
-Meaningful Holiday,TRUE,33,Quest,Location,00 11 00 21,"Almuj, Almuj Slums, Ternaves",,,
-Kingdown of Sand,TRUE,33,Quest,Location,00 11 00 22,"Accursed Dunes, Eagle Tribe, Ruined Prospect, Ruined Villa",,,
-Canyon Condor,TRUE,34,Quest,Location,00 11 00 23,"Rymek, Owl Tribe, Ancient Excavation",,,
-WynnExcavation Site A,TRUE,35,Quest,Location,00 11 00 24,"Ancient Excavation, Eagle Tribe",,,
-Tribal Aggression,TRUE,35,Quest,Location,00 11 00 25,"Owl Tribe, Eagle Tribe",,,
-Wrath of the Mummy,TRUE,36,Quest,Location,00 11 00 26,"Almuj Slums, Almuj, Mummy's Tomb, Rymek",,,
-Pirate's Trove,TRUE,39,Quest,Location,00 11 00 27,"Entrance to Gavel, Llevigar",,,
-Clearing the Camps,TRUE,39,Quest,Location,00 11 00 28,"Llevigar Gate, Cliffhearth Orc Camp, Trunkstump Goblin Camp, Orc Road",,,
-Ice Nations,TRUE,40,Quest,Location,00 11 00 29,"Nodguj Nation, Dujgon Nation",,,
-Heart of Llevigar,TRUE,41,Quest,Location,00 11 00 2b,Llevigar,,,
-Star Thief,TRUE,42,Quest,Location,00 11 00 2c,"Stonecave Orc Camp, Trunkstump Goblin Camp, Meteor Trail, Orc Lake, Orc Road",,,
-Underice,TRUE,43,Quest,Location,00 11 00 2d,"Nesaak, Wolves' Den, Frigid Crossroads",Underwater,,
-Fate of the Fallen,TRUE,43,Quest,Location,00 11 00 2e,"Wolves' Den, Nesaak, Abandoned Lumberyard",,,
-Blazing Retribution,TRUE,44,Quest,Location,00 11 00 2f,"Orc Lake, Loamsprout Orc Camp, Sablestone Orc Camp",,,
-Bob's Lost Soul,TRUE,45,Quest,Location,00 11 00 30,"Frigid Crossroads, Bob's Tomb, Savannah Plains, Florist's Hut, Black Road, Frozen Homestead, Abandoned Lumberyard",,,
-WynnExcavation Site B,TRUE,46,Quest,Location,00 11 00 31,Twain Lake,WynnExcavation Site A,,
-Frost Bite,TRUE,48,Quest,Location,00 11 00 32,Icy Descent,,,
-The House of Twain,TRUE,49,Quest,Location,00 11 00 33,"Twain Lake, Twain Mansion",,,
-An Iron Heart Part I,TRUE,49,Quest,Location,00 11 00 34,"Goblin Plains West, Iron Road",,,
-Rise of the Quartron,TRUE,49,Quest,Location,00 11 00 35,"Karoc Quarry, Harnort Compound, Shineridge Orc Camp",,,
-A Grave Mistake,TRUE,50,Quest,Location,00 11 00 36,Twain Mansion,The House of Twain,,
-The Maiden Tower,TRUE,51,Quest,Location,00 11 00 37,"Ogre Den, Maiden Tower, Olux",,,
-Crop Failure,TRUE,52,Quest,Location,00 11 00 38,Olux,,,
-Corrupted Betrayal,TRUE,52,Quest,Location,00 11 00 39,"Troms Lake, Apprentice Huts, Monte's Village, Iboju Village, Troms, Temple of Legends",,,
-Jungle Fever,TRUE,52,Quest,Location,00 11 00 3a,"Iboju Village, Almuj, Detlas",,,
-Death Whistle,TRUE,53,Quest,Location,00 11 00 3b,"Infested Sinkhole, Floral Peaks, Maiden Tower, Witching Road",,,
-Master Piece,TRUE,53,Quest,Location,00 11 00 3c,"Swamp Mountain Arch, Sunspark Orc Camp, Meteor Crater, Lizardman Camp, Bloody Trail",,,
-The Worm Holes,TRUE,54,Quest,Location,00 11 00 3d,"Path to the Grootslangs, Infested Sinkhole, Forgotten Burrows, Witching Road",,,
-The Shadow of the Beast,FALSE,54,Quest,Location,00 11 00 3e,"Bloody Trail, Entrance to Olux, Lizardman Lake, Fading Forest, Olux",,,
-Zhight Island,TRUE,55,Quest,Location,00 11 00 3f,"Zhight Island, Mage Island",Ice Nations,,
-WynnExcavation Site C,TRUE,55,Quest,Location,00 11 00 40,Volcanic Excavation,WynnExcavation Site B,,
-The Passage,TRUE,57,Quest,Location,00 11 00 41,"Troms, Iboju Village",,,
-An Iron Heart Part II,TRUE,58,Quest,Location,00 11 00 42,"Olux, Secluded Workshop",An Iron Heart Part I,,
-The Order of the Grook,TRUE,59,Quest,Location,00 11 00 43,Mage Island,,,
-Beneath the Depths,FALSE,60,Quest,Location,00 11 00 44,"Pirate Town, Mage Island",,,
-Reclaiming the House,FALSE,61,Quest,Location,00 11 00 45,"Overtaken Outpost, Mangled Lake, Bloody Trail",,,
-Redbeard's Booty,FALSE,61,Quest,Location,00 11 00 46,,,,
-Lost in the Jungle,FALSE,62,Quest,Location,00 11 00 47,,,,
-Taproot,FALSE,62,Quest,Location,00 11 00 48,Fading Forest,The Worm Holes,,
-Out of my Mind,FALSE,63,Quest,Location,00 11 00 49,,,,
-A Headless History,FALSE,64,Quest,Location,00 11 00 4a,"Gelibord Watermill, Castle Dullahan",Taproot,,
-All Roads To Peace,FALSE,64,Quest,Location,00 11 00 4b,,"Clearing the Camps, Blazing Retribution, Reclaiming the House",,
-Lost Royalty,FALSE,65,Quest,Location,00 11 00 4c,,,,
-Lost Soles,FALSE,66,Quest,Location,00 11 00 4d,,Beneath the Depths,,
-Memory Paranoia,FALSE,67,Quest,Location,00 11 00 4e,Caritat Mansion,,,
-From the Mountains,FALSE,67,Quest,Location,00 11 00 4f,,,,
-Temple of the Legends,FALSE,68,Quest,Location,00 11 00 50,,"Ice Nations, Creeper Infiltration",,
-Grand Youth,FALSE,69,Quest,Location,00 11 00 51,,,,
-Lazarus Pit,FALSE,69,Quest,Location,00 11 00 52,"Gelibord, Castle Dullahan, Twisted Ridge",,,
-Haven Antiquity,FALSE,70,Quest,Location,00 11 00 53,"Dreary Docks, Derelict Mansion, Disturbed Crypt, Lifeless Forest",,,
-WynnExcavation Site D,FALSE,70,Quest,Location,00 11 00 54,,WynnExcavation Site C,,
-Shattered Minds,FALSE,70,Quest,Location,00 11 00 55,,,,
-Finding the Light,FALSE,71,Quest,Location,00 11 00 56,,A Headless History,,
-Forbidden Prison,FALSE,72,Quest,Location,00 11 00 57,"Gelibord, Lexdale Penitentiary",,,
-Lexdale Witch Trials,FALSE,72,Quest,Location,00 11 00 58,"Lexdale, Decayed Basin, Heart of Decay, Old Crossroads",,,
-Murder Mystery,FALSE,73,Quest,Location,00 11 00 59,,,,
-Troubled Tribesmen,FALSE,73,Quest,Location,00 11 00 5a,,,,
-Hollow Serenity,FALSE,73,Quest,Location,00 11 00 5b,,,,
-Aldorei's Secret Part I,FALSE,74,Quest,Location,00 11 00 5c,,,,
-Acquiring Credentials,FALSE,74,Quest,Location,00 11 00 5d,,,,
-Reincarnation,FALSE,74,Quest,Location,00 11 00 5e,"Skien's Island, Maro Peaks, Bob's Tomb","Cluck Cluck, Ice Nations, Bob's Lost Soul",,
-Tower of Ascension,FALSE,75,Quest,Location,00 11 00 2a,Tower of Ascension,,,
-The Ultimate Weapon,FALSE,75,Quest,Location,00 11 00 5f,,,,
-Flight in Distress,FALSE,75,Quest,Location,00 11 00 60,,Acquiring Credentials,,
-The Bigger Picture,FALSE,76,Quest,Location,00 11 00 61,,,,
-Purple and Blue,FALSE,77,Quest,Location,00 11 00 62,,,,
-Hunger of the Gerts Part I,FALSE,77,Quest,Location,00 11 00 63,"Gylia Watchtower, Jitak's Farm, Mushroom Hill, Gert Camp",,,
-Aldorei's Secret Part II,FALSE,78,Quest,Location,00 11 00 64,,Aldorei's Secret Part I,,
-Hunger of the Gerts Part II,FALSE,78,Quest,Location,00 11 00 65,"Gylia Watchtower, Gert Camp",Hunger of the Gerts Part I,,
-Fallen Delivery,FALSE,79,Quest,Location,00 11 00 66,,,,
-The Realm of Light,FALSE,79,Quest,Location,00 11 00 67,,Finding the Light,,
-The Qira Hive,FALSE,80,Quest,Location,00 11 00 68,The Hive,,,
-???,FALSE,80,Quest,Location,00 11 00 69,,,,
-General's Orders,FALSE,80,Quest,Location,00 11 00 6a,,,,
-From the Bottom,FALSE,81,Quest,Location,00 11 00 6b,Thanos,,,
-The Thanos Depository,FALSE,81,Quest,Location,00 11 00 6c,,,,
-A Marauder's Dues,FALSE,83,Quest,Location,00 11 00 6d,,,,
-The Envoy Part I,FALSE,83,Quest,Location,00 11 00 6e,,,,
-The Canyon Guides,FALSE,84,Quest,Location,00 11 00 6f,,,,
-The Lost,FALSE,85,Quest,Location,00 11 00 70,,,,
-The Canary Calls,FALSE,85,Quest,Location,00 11 00 71,,,,
-Desperate Metal,FALSE,86,Quest,Location,00 11 00 72,,,,
-Cowfusion,FALSE,86,Quest,Location,00 11 00 73,,,,
-Beyond the Grave,FALSE,87,Quest,Location,00 11 00 74,,,,
-Mixed Feelings,FALSE,87,Quest,Location,00 11 00 75,,,,
-The Hidden City,FALSE,88,Quest,Location,00 11 00 76,,,,
-The Envoy Part II,FALSE,89,Quest,Location,00 11 00 77,,The Envoy Part I,,
-Enter the Dojo,FALSE,89,Quest,Location,00 11 00 78,,,,
-Fantastic Voyage,FALSE,90,Quest,Location,00 11 00 79,,,,
-Dwarves and Doguns Part I,FALSE,91,Quest,Location,00 11 00 7a,,,,
-The Feathers Fly Part I,FALSE,91,Quest,Location,00 11 00 7b,,The Envoy Part II,,
-Dwarves and Doguns Part II,FALSE,92,Quest,Location,00 11 00 7c,,Dwarves and Doguns Part I,,
-Dwarves and Doguns Part III,FALSE,93,Quest,Location,00 11 00 7d,,Dwarves and Doguns Part II,,
-The Feathers Fly Part II,FALSE,93,Quest,Location,00 11 00 7e,,The Feathers Fly Part I,,
-Dwarves and Doguns Part IV,FALSE,94,Quest,Location,00 11 00 7f,,Dwarves and Doguns Part III,,
-One Thousand Meters Under,FALSE,95,Quest,Location,00 11 00 80,,,,
-Recipe For Disaster,FALSE,96,Quest,Location,00 11 00 81,,,,
-The Breaking Point,FALSE,97,Quest,Location,00 11 00 82,,"The Envoy Part II, Dwarves and Doguns Part IV, The Thanos Depository",,
-Royal Trials,FALSE,98,Quest,Location,00 11 00 83,,,,
-The Hero of Gavel,FALSE,99,Quest,Location,00 11 00 84,,,,
-The Olmic Rune,FALSE,100,Quest,Location,00 11 00 85,,,,
-A Journey Beyond,FALSE,100,Quest,Location,00 11 00 86,,,,
-A Journey Further,FALSE,101,Quest,Location,00 11 00 87,,A Journey Beyond,,
-Point of No Return,FALSE,102,Quest,Location,00 11 00 88,Lutho,,,
-Queen's Recruit,FALSE,103,Quest,Location,00 11 00 89,,"Recover the Past, The Realm of Light, A Journey Further",,
-A Hunter's Calling,FALSE,103,Quest,Location,00 11 00 8a,,"Eldrich Outlook, An Iron Heart Part II, Dwarves and Doguns Part II",,
-A Journey Home,FALSE,104,Quest,Location,00 11 00 8b,,Queen's Recruit,,
-A New Beginning,FALSE,105,Quest,Location,00 11 00 8c,,A Journey Home,,
-The Cursed One,FALSE,106,Quest,Location,00 11 00 8d,,A New Beginning,,
-Undersupply,FALSE,107,Quest,Location,00 11 00 8e,"Royal Dam, Forts in Fall, Lake Gitephe",A Journey Home,,
-The Scarred Springs,FALSE,108,Quest,Location,00 11 00 8f,"Royal Barracks, The Lumbermill, Espren",A Journey Home,,
-Revelations in Fall,FALSE,108,Quest,Location,00 11 00 90,,The Cursed One,,
-Solidarity of Steel,FALSE,109,Quest,Location,00 11 00 91,,Revelations in Fall,,
-Off the Rails,FALSE,109,Quest,Location,00 11 00 92,,Revelations in Fall,,
-The Price of Ingenuity,FALSE,110,Quest,Location,00 11 00 93,,Solidarity of Steel,,
-Through the Pipes,FALSE,110,Quest,Location,00 11 00 94,"Timasca, Agricultural Sector",Revelations in Fall,,
-The Missing Piece,FALSE,111,Quest,Location,00 11 00 95,"Espren, Agricultural Sector, Residence Sector, University Campus, Royal Barracks",Revelations in Fall,,
-Echoes of Change,FALSE,112,Quest,Location,00 11 00 96,,The Price of Ingenuity,,
-Shrouded in Mist,FALSE,113,Quest,Location,00 11 00 97,,Echoes of Change,,
-Burning Bonds,FALSE,114,Quest,Location,00 11 00 98,,Revelations in Fall,,
-True Colours,FALSE,115,Quest,Location,00 11 00 99,,Shrouded in Mist,,
-Celebrations in Smoke,FALSE,115,Quest,Location,00 11 00 9a,,Burning Bonds,,
-Overture to Despair,FALSE,116,Quest,Location,00 11 00 9b,"Hyloch, Feuding Houses, Lake Gitephe",True Colours,,
-The Strong Survive,FALSE,117,Quest,Location,00 11 00 9c,"Hyloch, Fort Tericen",Revelations in Fall,,
-Ensemble of Hope,FALSE,118,Quest,Location,00 11 00 9d,"Hyloch, Citadel's Shadow, Royal Dam, Deforested Ecotone, Gates to Aelumia, Contested District",Overture to Despair,,
-Apotheosis,FALSE,119,Quest,Location,00 11 00 9e,"Hyloch, Lake Gitephe, Contested District, Gates to Aelumia, Royal Barracks",Ensemble of Hope,,
+Nothing,TRUE,,Special,Filler,00 20 00 01,,,,
 Freeze Trap,TRUE,,Special,Trap,00 20 01 01,,,,
 Daze Trap,TRUE,,Special,Trap,00 20 01 02,,,,
 Blind Trap,TRUE,,Special,Trap,00 20 01 03,,,,
 Kill Trap,TRUE,,Special,Trap,00 20 01 04,,,,
+Ragni,TRUE,1,Territory,Default,,"Ragni North Entrance, Ragni Main Entrance, Ragni South Entrance",,1,"King's Recruit, Poisoning the Pest, A Journey Home"
+Alekin,TRUE,4,Territory,Default,,"Nivla Woods, Arachnid Woods, Nivla Woods Exit, Blooming Boulders",,4,"Infested Plants, Mushroom Man, Supply and Delivery"
+Maltic,TRUE,4,Territory,Default,,"Ragni Countryside North, Coastal Trail, Maltic Coast, Ancient Waterworks, Farmers Settlement",,10,Maltic's Well
+Detlas,TRUE,6,Territory,Default,,"Detlas Suburbs, Scorched Trail, Essren's Hut",,6,"Mushroom Man, Taking the Tower, Elemental Exercise, Potion Making, Arachnids' Ascent, Supply and Delivery, Grave Digger, The Mercenary, Jungle Fever, Level Up: 10, Level Up: 11, Level Up: 12, Level Up: 13, Level Up: 14, Level Up: 15, Level Up: 16, Level Up: 17, Level Up: 18, Level Up: 19"
+Ternaves,TRUE,13,Territory,Default,,"Black Road, Ternaves Tunnel, Abandoned Mines Entrance",,13,"Stable Story, Meaningful Holiday"
+Nemract,TRUE,18,Territory,Default,,"Rocky Shore, Rooster Island, Nemract Cathedral, Mount Wynn Inn",,18,"Pit of the Dead, Grave Digger, Dwelling Walls, Lost Tower, Tempo Town Trouble, Misadventure on the Sea, Sunken Ship, Level Up: 20, Level Up: 21, Level Up: 22, Level Up: 23, Level Up: 24, Level Up: 25, Level Up: 26, Level Up: 27, Level Up: 28, Level Up: 29"
+Tempo Town,TRUE,22,Territory,Default,,"Time Valley, Blooming Boulders, Road to Elkurn, Elkurn",,22,"Tempo Town Trouble, Creeper Infiltration, Corrupt Time Warp, Vortex Complex, Time Valley Aquifer"
+Elkurn,TRUE,22,Territory,Default,,"Tempo Town, Road to Elkurn, Corrupted Road, Corrupted River, Nesaak Transition, Frosty Spikes",,22,"Recover the Past, Vortex Complex"
+Nesaak,TRUE,22,Territory,Default,,"Frigid Crossroads, Frozen Homestead, Florist's Hut, Bob's Tomb, Wolves' Den",,40,"Underice, Fate of the Fallen, Level Up: 40, Level Up: 41, Level Up: 42, Level Up: 43, Level Up: 44, Level Up: 45, Level Up: 46, Level Up: 47, Level Up: 48, Level Up: 49, Level Up: 50, Level Up: 51, Level Up: 52, Level Up: 53, Level Up: 54"
+Selchar,TRUE,28,Territory,Default,,"Skien's Island, Durum Barley Islet, Durum Isles Barn, Durum Malt Islet, Rooster Island",,28,"Misadventure on the Sea, The Envoy Part I, Wave Cult Temple"
+Almuj,TRUE,30,Territory,Default,,"Entrance to Almuj, Dusty Pit, Gloopy Cave, Ruined Villa, Almuj Slums",,30,"The Mercenary, Green Gloop, A Sandy Scandal, Meaningful Holiday, Wrath of the Mummy, Jungle Fever, Crystal Caverns, Quicksand Carvers' Den, Slay Scarabs, Level Up: 30, Level Up: 31, Level Up: 32, Level Up: 33, Level Up: 34, Level Up: 35, Level Up: 36, Level Up: 37, Level Up: 38, Level Up: 39"
+Bremminglar,TRUE,30,Territory,Default,,"Savannah Plains, Lion Lair",,#N/A,#N/A
+Rymek,TRUE,34,Territory,Default,,"Ruined Prospect, Sunrise Plateau",,34,"Canyon Condor, Wrath of the Mummy"
+Pirate Town,TRUE,39,Territory,Default,,"Bloody Beach, Volcanic Isles, Lost Atoll, Zhight Island",,60,Beneath the Depths
+Llevigar,TRUE,39,Territory,Default,,"Entrance to Gavel, Karoc Quarry, Llevigar Gate",,39,"Pirate's Trove, Heart of Llevigar, Level Up: 40, Level Up: 41, Level Up: 42, Level Up: 43, Level Up: 44, Level Up: 45, Level Up: 46, Level Up: 47, Level Up: 48, Level Up: 49"
+Nodguj Nation,TRUE,40,Territory,Default,,"Skien's Island, Dujgon Nation, Icy Island, Santa's Hideout, Mage Island, Durum Barley Islet",,40,Ice Nations
+Dujgon Nation,TRUE,40,Territory,Default,,"Nodguj Nation, Dreary Docks, Disturbed Crypt, Regular Island, Icy Island",,40,Ice Nations
+Lusuco,TRUE,44,Territory,Default,,Icy Descent,,44,"Raiders' Hideout, Submerged Coal Mine"
+Entrance to Bucie,TRUE,45,Territory,Default,,"Llevigar Farm, Goblin Plains East, Centerworld Fortress, Bucie Waterfall",,#N/A,#N/A
+Troms,TRUE,50,Territory,Default,,"Temple of Legends, Troms Lake",,52,"Corrupted Betrayal, The Passage, Level Up: 55, Level Up: 56, Level Up: 57, Level Up: 58, Level Up: 59"
+Olux,TRUE,50,Territory,Default,,"Path to the Grootslangs, Entrance to Olux, Lizardman Lake, Olux Lumberyard",,50,"The Maiden Tower, Crop Failure, The Shadow of the Beast, An Iron Heart Part II, Maddening Mud, Level Up: 50, Level Up: 51, Level Up: 52, Level Up: 53, Level Up: 54, Level Up: 55, Level Up: 56, Level Up: 57, Level Up: 58, Level Up: 59"
+Cinfras,FALSE,,Territory,Default,,,,#N/A,#N/A
+Gelibord,FALSE,,Territory,Default,,,,66,"Lazarus Pit, Forbidden Prison, Elemental Hollow"
+Lexdale,FALSE,,Territory,Default,,,,72,Lexdale Witch Trials
+Thanos,FALSE,,Territory,Default,,,,81,"From the Bottom, The Thanos Depository, The Breaking Point"
+Thesead,FALSE,,Territory,Default,,,,#N/A,#N/A
+Eltom,FALSE,,Territory,Default,,,,#N/A,#N/A
+Ahmsord,FALSE,,Territory,Default,,,,96,"Slay Creatures of the Void, Slay Conures"
+Corkus City,FALSE,,Territory,Default,,,,83,"The Envoy Part I, The Envoy Part II"
+Legendary Island,FALSE,,Territory,Default,,,,#N/A,#N/A
+Rodoroc,FALSE,,Territory,Default,,,,91,"Dwarves and Doguns Part I, Dwarves and Doguns Part II, Dwarves and Doguns Part IV, The Breaking Point"
+Lutho,FALSE,,Territory,Default,,,,102,Point of No Return
+Iboju Village,TRUE,50,Territory,Default,,"Fountain of Youth, Apprentice Huts",,52,"Corrupted Betrayal, Jungle Fever, The Passage, Carnadile Den, Jade Well, Jungle Fetish Camp"
+Efilim,FALSE,,Territory,Default,,,,#N/A,#N/A
+Relos,FALSE,,Territory,Default,,,,89,The Envoy Part II
+Espren,FALSE,,Territory,Default,,,,105,"A New Beginning, The Cursed One, The Scarred Springs, Revelations in Fall, The Missing Piece"
+Timasca,FALSE,,Territory,Default,,,,109,"Solidarity of Steel, The Price of Ingenuity, Through the Pipes, Echoes of Change, The Flush, Freight Interchange"
+Aldwell,FALSE,,Territory,Default,,,,112,"Shrouded in Mist, Entozoon Takeover, Hunt Banshee Stags"
+Hyloch,FALSE,,Territory,Default,,,,116,"Overture to Despair, The Strong Survive, Ensemble of Hope, Apotheosis, Saltpetre Mine"
+Contested District,FALSE,,Territory,Default,,,,115,"Ensemble of Hope, Apotheosis, Citadel Catacombs, Aelumia Weaveworks, Aelumia Metalmill, Aelumia Chemical Plant"
+Kandon-Beda,FALSE,,Territory,Default,,,,97,The Breaking Point
+Dogun Ritual Site,FALSE,,Territory,Default,,,,91,"Dwarves and Doguns Part I, Dwarves and Doguns Part III, Dwarves and Doguns Part IV, The Breaking Point, Slay Azers"
+*Owl Tribe,TRUE,13,Territory,Item,,,,13,"Stable Story, Canyon Condor, Tribal Aggression"
+*Abandoned Farm,TRUE,16,Territory,Item,,,,16,Mossy Grotto
+*Time Valley,TRUE,22,Territory,Item,,,,4,"Infested Plants, Tempo Town Trouble, Deja Vu, Spider Mother Grove, Mossy Grotto, Corrupt Time Warp, Time Valley Aquifer, The Alcazar, Trunk Garrison"
 ,FALSE,,,,,,,,
 ,FALSE,,,,,,,,
 ,FALSE,,,,,,,,

@@ -27,6 +27,24 @@ class ExtraMaxLevels(Range):
     range_end = 50
     default = 5
 
+class StartingRoute(Choice):
+    """
+    How much of the route from Ragni to Detlas to start unlocked
+    None: Only Ragni starts unlocked (may lead to fill errors)
+    Alekin: The route from Ragni -> Alekin starts unlocked
+    Hybrid: Same as Alekin option and the rest of the route to Detlas is guaranteed to be in sphere 1
+    Detlas: The route from Ragni -> Detlas starts unlocked
+    """
+
+    display_name = "Starting Route"
+
+    option_none = 0
+    option_alekin = 1
+    option_hybrid = 2
+    option_detlas = 3
+
+    default = 2
+
 class LevelIncrement(Range):
     """
     How many levels each max level item increases by.
@@ -54,14 +72,14 @@ class GearLockMode(Choice):
 
     default = option_unified
 
-class GearRarityMode(Toggle):
+class SingleGearRarity(Toggle):
     """
-    Whether to separate out gear rarities (unique, rare, legendary+) for gear lock
+    Whether to combine all gear rarities (unique, rare, legendary+) into a single progressive level
     """
 
-    display_name = "Gear Lock Rarity"
+    display_name = "Single Gear Rarity"
 
-    default = True
+    default = False
 
 class GearLevelIncrement(Range):
     """
@@ -247,18 +265,22 @@ class WynncraftOptions(PerGameCommonOptions):
     goal_level: GoalLevel
     locked_region_enforcement: LockedRegionEnforcement
     locked_region_countdown: LockedRegionCountdown
+
+    starting_route: StartingRoute
     level_increment: LevelIncrement
     extra_max_levels: ExtraMaxLevels
     gear_lock_mode: GearLockMode
-    gear_rarity_mode: GearRarityMode
+    single_gear_rarity: SingleGearRarity
     gear_level_increment: GearLevelIncrement
     extra_gear_levels: ExtraGearLevels
+
     quest_checks: QuestChecks
     mini_quest_checks: MiniQuestChecks
     cave_checks: CaveChecks
     dungeon_checks: DungeonChecks
     level_checks: LevelChecks
     territory_checks: TerritoryChecks
+
     trap_chance: TrapChance
     freeze_trap_weight: FreezeTrapWeight
     daze_trap_weight: DazeTrapWeight
@@ -274,7 +296,7 @@ option_groups = [
     ),
     OptionGroup(
         "Item Options",
-        [LevelIncrement, ExtraMaxLevels, GearLockMode, GearRarityMode, GearLevelIncrement, ExtraGearLevels]
+        [StartingRoute, LevelIncrement, ExtraMaxLevels, GearLockMode, SingleGearRarity, GearLevelIncrement, ExtraGearLevels]
     ),
     OptionGroup(
         "Location Options",

@@ -41,7 +41,9 @@ class WynncraftWorld(World):
 
     def fill_slot_data(self) -> Mapping[str, Any]:
         return self.options.as_dict(
-            "goal_level", "level_increment", "trap_duration", "locked_region_enforcement", "locked_region_countdown"
+            "goal_level", "level_increment", "trap_duration",
+            "gear_lock_mode", "single_gear_rarity", "gear_level_increment",
+            "locked_region_enforcement", "locked_region_countdown"
         )
 
     def location_enabled(self, type):

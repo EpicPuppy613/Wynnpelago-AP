@@ -17,21 +17,19 @@ item_name_to_id = {}
 default_item_classifications = {}
 item_levels = {}
 
-STARTING_ITEMS = [
+ALEKIN_ROUTE = [
     "Region: Ragni Main Entrance",
     "Region: Emerald Trail",
     "Region: Entrance to Nivla Woods",
-    "Region: Nivla Woods",
+    "Region: Nivla Woods"
+]
+
+DETLAS_ROUTE = [
+    "Region: Road to Time Valley",
     "Region: Nivla Woods Exit",
     "Region: Akias Ruins",
     "Region: Corrupted Orchard",
     "Region: Detlas Suburbs"
-]
-
-EARLY_ITEMS = [
-    "Region: Road to Time Valley",
-    "Progressive Max Level",
-    "Progressive Max Level"
 ]
 
 for row in loader.rows:
@@ -85,6 +83,13 @@ def get_trap_weight(world: WynncraftWorld, trap: str):
 
 
 def create_all_items(world: WynncraftWorld) -> None:
+    starting_route = world.options.starting_route
+    starting_items = []
+    if starting_route in [starting_route.option_alekin, starting_route.option_hybrid, starting_route.option_detlas]:
+        starting_items += ALEKIN_ROUTE
+    if starting_route == starting_route.option_detlas:
+        starting_items += DETLAS_ROUTE
+
     itempool: list[Item] = []
 
     for item, level in item_levels.items():
@@ -93,7 +98,7 @@ def create_all_items(world: WynncraftWorld) -> None:
 
         ap_item = world.create_item(item)
         itempool.append(ap_item)
-        if item in STARTING_ITEMS:
+        if item in starting_items:
             world.push_precollected(ap_item)
 
     level_items = ceil((world.options.goal_level - 1) / world.options.level_increment)
@@ -155,5 +160,6 @@ def create_all_items(world: WynncraftWorld) -> None:
     world.multiworld.itempool += itempool
 
     # Early region hints
-    for item in EARLY_ITEMS:
-        world.multiworld.local_early_items[world.player][item] = 1
+    if starting_route == starting_route.option_hybrid:
+        for item in DETLAS_ROUTE:
+            world.multiworld.local_early_items[world.player][item] = 1

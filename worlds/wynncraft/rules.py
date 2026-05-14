@@ -45,6 +45,12 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                     rule = rule | CanReachRegion(region)
             else:
                 rule = True_()
+            try:
+                prev_level = int(row[loader.NAME].replace("Level Up: ", "")) - 1
+                if prev_level > 1:
+                    rule &= CanReachLocation("Level Up: " + str(prev_level))
+            except ValueError:
+                pass
         else:
             rule = True_()
             if len(regions) > 1:

@@ -22,11 +22,11 @@ all_regions = []
 region_connections = {}
 unlockable_regions = []
 for row in reader:
-    if row[TYPE] == "Territory":
+    if row[TYPE] == "Region":
         all_regions.append(row[NAME])
         region_connections[row[NAME]] = row[CONNECTIONS]
     if row[READY] != "TRUE":
         continue
     rows.append(row)
-    if row[TYPE] == "Territory" and row["AP"] == "Item":
+    if row[TYPE] == "Region" and row["AP"] == "Item":
         unlockable_regions.append(row[NAME])

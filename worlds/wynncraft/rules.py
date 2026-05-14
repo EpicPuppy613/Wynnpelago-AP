@@ -60,6 +60,9 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                 for prereq in prereqs:
                     rule = rule & CanReachLocation(prereq)
 
+        if row[loader.TYPE] == "Territory":
+            world.set_rule(world.get_location(row[loader.NAME]), rule)
+            continue
         levels_needed = max_levels_needed(int(row[loader.LEVEL]), world)
         world.set_rule(world.get_location(row[loader.NAME]), Has("Progressive Max Level", count=levels_needed) & rule)
 

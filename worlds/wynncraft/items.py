@@ -29,7 +29,9 @@ STARTING_ITEMS = [
 ]
 
 EARLY_ITEMS = [
-    "Region: Road to Time Valley"
+    "Region: Road to Time Valley",
+    "Progressive Max Level",
+    "Progressive Max Level"
 ]
 
 for row in loader.rows:
@@ -38,14 +40,11 @@ for row in loader.rows:
     item_id = int(row[loader.ID].replace(" ", ""), 16)
     name = row[loader.NAME]
     item_class = ItemClassification.filler
-    match row[loader.TYPE]:
-        case "Territory":
-            name = "Region: " + name
-            item_class |= ItemClassification.progression
-        case "Special":
-            item_class |= ItemClassification.progression
-            if "Max Level" in name:
-                item_class |= ItemClassification.useful
+    if row[loader.TYPE] == "Region":
+        name = "Region: " + name
+        item_class |= ItemClassification.progression
+    if name == "Progressive Max Level":
+        item_class |= ItemClassification.progression
     match row[loader.AP]:
         case "Item":
             item_names.append(name)
@@ -58,7 +57,7 @@ for row in loader.rows:
     item_name_to_id[name] = item_id
     default_item_classifications[name] = item_class
 
-    if row[loader.LEVEL] == "":
+    if row[loader.LEVEL] == "" or row[loader.TYPE] == "Special":
         continue
     item_levels[name] = int(row[loader.LEVEL])
 
@@ -67,7 +66,6 @@ class WynncraftItem(Item):
 
 def get_random_filler_item_name(world: WynncraftWorld) -> str:
     return filler_names[world.random.randint(0, len(filler_names) - 1)]
-
 
 def create_item_with_correct_classification(world: WynncraftWorld, name: str) -> WynncraftItem:
     classification = default_item_classifications[name]
@@ -101,6 +99,27 @@ def create_all_items(world: WynncraftWorld) -> None:
     level_items = ceil((world.options.goal_level - 1) / world.options.level_increment)
     itempool += [world.create_item("Progressive Max Level") for _ in range(level_items)]
 
+    gear_types = []
+    gear_items = []
+
+    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_full:
+        gear_types += ["Armor", "Accessories", "Weapons"]
+    elif world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
+        gear_types += ["Gear"]
+
+    if len(gear_types) > 0:
+        gear_item_count = ceil((world.options.goal_level - 1) / world.options.gear_level_increment)
+        if world.options.gear_rarity_mode:
+            for gear in gear_types:
+                itempool += [world.create_item("Progressive Unique " + gear) for _ in range(gear_item_count)]
+                itempool += [world.create_item("Progressive Rare " + gear) for _ in range(gear_item_count)]
+                itempool += [world.create_item("Progressive Legendary+ " + gear) for _ in range(gear_item_count)]
+                gear_items += ["Progressive Unique " + gear, "Progressive Rare " + gear, "Progressive Legendary+ " + gear]
+        else:
+            for gear in gear_types:
+                itempool += [world.create_item("Progressive " + gear) for _ in range(gear_item_count)]
+                gear_items += ["Progressive " + gear]
+
     number_of_items = len(itempool)
     number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))
     needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
@@ -108,6 +127,12 @@ def create_all_items(world: WynncraftWorld) -> None:
     extra_level_items = min(world.options.extra_max_levels, needed_number_of_filler_items)
     itempool += [world.create_item("Progressive Max Level") for _ in range(extra_level_items)]
     needed_number_of_filler_items -= extra_level_items
+
+    extra_gear_items = min(world.options.extra_gear_levels * len(gear_items), needed_number_of_filler_items)
+    for i in range(extra_gear_items):
+        index = i % len(gear_items)
+        itempool += [world.create_item(gear_items[index])]
+    needed_number_of_filler_items -= extra_gear_items
 
     trap_items = round(needed_number_of_filler_items * world.options.trap_chance / 100)
 

@@ -60,4 +60,7 @@ class WynncraftWorld(World):
         if type == "Level" and not self.options.level_checks:
             return False
 
+        if type == "Territory" and not self.options.territory_checks:
+            return False
+
         return True

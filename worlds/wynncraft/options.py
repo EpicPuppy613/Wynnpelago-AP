@@ -21,7 +21,7 @@ class ExtraMaxLevels(Range):
     Not all of these are guaranteed to be added, depending on item and location counts during generation.
     """
 
-    display_name = "Extra Max Levels"
+    display_name = "Extra Level Items"
 
     range_start = 0
     range_end = 50
@@ -37,6 +37,53 @@ class LevelIncrement(Range):
 
     range_start = 1
     range_end = 10
+    default = 1
+
+class GearLockMode(Choice):
+    """
+    Prevent gear from being used until it is unlocked
+    Full: Armor, Accessories, and Weapons are unlocked independently
+    Unified: All gear types are unlocked with a single item
+    """
+
+    display_name = "Gear Lock"
+
+    option_full = 0
+    option_unified = 1
+    option_off = 2
+
+    default = option_unified
+
+class GearRarityMode(Toggle):
+    """
+    Whether to separate out gear rarities (unique, rare, legendary+) for gear lock
+    """
+
+    display_name = "Gear Lock Rarity"
+
+    default = True
+
+class GearLevelIncrement(Range):
+    """
+    How much to increase max gear level each item
+    """
+
+    display_name = "Gear Level Increment"
+
+    range_start = 1
+    range_end = 20
+    default = 5
+
+class ExtraGearLevels(Range):
+    """
+    Number of filler items to convert to extra max gear level items per gear type (armor, accessories, weapons).
+    Not all of these are guaranteed to be added, depending on item and location counts during generation.
+    """
+
+    display_name = "Extra Gear Level Items"
+
+    range_start = 0
+    range_end = 50
     default = 1
 
 class TrapChance(Range):
@@ -139,7 +186,6 @@ class QuestChecks(Toggle):
     """
     Earn checks for completing quests.
     Disabling this removes a lot of checks.
-    Disabling could lead to fill errors.
     """
 
     display_name = "Questsanity"
@@ -160,7 +206,6 @@ class CaveChecks(Toggle):
     """
     Earn checks for completing caves.
     Disabling this removes a lot of checks.
-    Disabling could lead to fill errors.
     """
 
     display_name = "Cavesanity"
@@ -181,10 +226,19 @@ class LevelChecks(Toggle):
     """
     Earn checks for leveling up.
     Disabling this removes a lot of checks.
-    Disabling could lead to fill errors.
     """
 
     display_name = "Levelsanity"
+
+    default = True
+
+class TerritoryChecks(Toggle):
+    """
+    Earn checks for entering territories for the first time.
+    Disabling this removes a lot of checks.
+    """
+
+    display_name = "Territorysanity"
 
     default = True
 
@@ -195,11 +249,16 @@ class WynncraftOptions(PerGameCommonOptions):
     locked_region_countdown: LockedRegionCountdown
     level_increment: LevelIncrement
     extra_max_levels: ExtraMaxLevels
+    gear_lock_mode: GearLockMode
+    gear_rarity_mode: GearRarityMode
+    gear_level_increment: GearLevelIncrement
+    extra_gear_levels: ExtraGearLevels
     quest_checks: QuestChecks
     mini_quest_checks: MiniQuestChecks
     cave_checks: CaveChecks
     dungeon_checks: DungeonChecks
     level_checks: LevelChecks
+    territory_checks: TerritoryChecks
     trap_chance: TrapChance
     freeze_trap_weight: FreezeTrapWeight
     daze_trap_weight: DazeTrapWeight
@@ -215,11 +274,11 @@ option_groups = [
     ),
     OptionGroup(
         "Item Options",
-        [LevelIncrement, ExtraMaxLevels]
+        [LevelIncrement, ExtraMaxLevels, GearLockMode, GearRarityMode, GearLevelIncrement, ExtraGearLevels]
     ),
     OptionGroup(
         "Location Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, TerritoryChecks]
     ),
     OptionGroup(
         "Trap Options",

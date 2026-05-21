@@ -16,6 +16,7 @@ ID = "ID (Hex)"
 REGION = "Region/Connections"
 CONNECTIONS = REGION
 PREREQUISITES = "Prerequisites"
+GEAR_REQ = "Gear Req"
 
 # run some preprocessing for future use
 all_regions = []

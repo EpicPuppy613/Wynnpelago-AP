@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING
 
 from math import ceil
 
-from rule_builder.rules import Has, True_, False_, CanReachRegion, CanReachLocation
+from rule_builder.rules import Has, True_, False_, CanReachRegion, CanReachLocation, Rule
 
 from .data import loader
 
@@ -66,6 +66,11 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                 for prereq in prereqs:
                     rule = rule & CanReachLocation(prereq)
 
+            if row[loader.GEAR_REQ] != "":
+                gear_reqs = row[loader.GEAR_REQ].split(", ")
+                for req in gear_reqs:
+                    rule = rule & gear_rule(world, req)
+
         if row[loader.TYPE] == "Territory":
             world.set_rule(world.get_location(row[loader.NAME]), rule)
             continue
@@ -82,3 +87,14 @@ def set_completion_condition(world: WynncraftWorld) -> None:
 
 def max_levels_needed(level: int, world: WynncraftWorld):
     return ceil((level - 1) / world.options.level_increment)
+
+def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:
+    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_off:
+        return True_()
+    parts = requirement.split(" ")
+    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
+        parts[1] = "Gear"
+    if world.options.single_gear_rarity:
+        return Has("Progressive " + parts[1], count=int(parts[2]))
+    else:
+        return Has("Progressive " + parts[0] + " " + parts[1], count=int(parts[2]))

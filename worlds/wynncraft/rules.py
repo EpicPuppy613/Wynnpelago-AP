@@ -88,6 +88,9 @@ def set_completion_condition(world: WynncraftWorld) -> None:
 def max_levels_needed(level: int, world: WynncraftWorld):
     return ceil((level - 1) / world.options.level_increment)
 
+def gear_levels_needed(level: int, world: WynncraftWorld):
+    return ceil((level - 1) / world.options.gear_level_increment)
+
 def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:
     if world.options.gear_lock_mode == world.options.gear_lock_mode.option_off:
         return True_()
@@ -95,6 +98,6 @@ def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:
     if world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
         parts[1] = "Gear"
     if world.options.single_gear_rarity:
-        return Has("Progressive " + parts[1], count=int(parts[2]))
+        return Has("Progressive " + parts[1], count=int(gear_levels_needed(int(parts[2]), world)))
     else:
-        return Has("Progressive " + parts[0] + " " + parts[1], count=int(parts[2]))
+        return Has("Progressive " + parts[0] + " " + parts[1], count=int(gear_levels_needed(int(parts[2]), world)))

@@ -42,7 +42,9 @@ for row in loader.rows:
         name = "Region: " + name
         item_class |= ItemClassification.progression
     if name == "Progressive Max Level":
-        item_class |= ItemClassification.progression
+        item_class |= ItemClassification.progression | ItemClassification.useful
+    elif name.startswith("Progressive"):
+        item_class |= ItemClassification.progression | ItemClassification.deprioritized
     match row[loader.AP]:
         case "Item":
             item_names.append(name)
@@ -114,7 +116,7 @@ def create_all_items(world: WynncraftWorld) -> None:
 
     if len(gear_types) > 0:
         gear_item_count = ceil((world.options.goal_level - 1) / world.options.gear_level_increment)
-        if world.options.gear_rarity_mode:
+        if not world.options.single_gear_rarity:
             for gear in gear_types:
                 itempool += [world.create_item("Progressive Unique " + gear) for _ in range(gear_item_count)]
                 itempool += [world.create_item("Progressive Rare " + gear) for _ in range(gear_item_count)]

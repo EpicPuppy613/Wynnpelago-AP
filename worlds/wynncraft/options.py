@@ -102,7 +102,7 @@ class ExtraGearLevels(Range):
 
     range_start = 0
     range_end = 50
-    default = 1
+    default = 3
 
 class TrapChance(Range):
     """

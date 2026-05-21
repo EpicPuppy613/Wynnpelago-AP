@@ -12,7 +12,7 @@ class GoalLevel(Range):
 
     range_start = 10
     range_end = 60
-    default = 60
+    default = 40
 
 class ExtraMaxLevels(Range):
     """

@@ -40,7 +40,7 @@ for row in loader.rows:
     item_class = ItemClassification.filler
     if row[loader.TYPE] == "Region":
         name = "Region: " + name
-        item_class |= ItemClassification.progression
+        item_class |= ItemClassification.progression | ItemClassification.useful
     if name == "Progressive Max Level":
         item_class |= ItemClassification.progression | ItemClassification.useful
     elif name.startswith("Progressive"):
